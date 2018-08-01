@@ -3,7 +3,7 @@ layout: none
 title: SAML
 category: Authentication
 order: 4
-permalink:
+permalink: 
 ---
 
 ## Установите программу Cherrytree
