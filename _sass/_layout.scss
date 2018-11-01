@@ -7,6 +7,7 @@ body {
 	height: auto;
 	overflow-x: hidden;
 	background-color: $body-background-color;
+	padding-top: 50px;
 
 	&.nav-open {
 		overflow: hidden;
