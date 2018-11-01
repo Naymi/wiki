@@ -6,7 +6,6 @@ requirements:
   build: Jekyll
   plan: Free
   hosting: Any
-
 ---
 Use community-contributed packages and run custom code to extend your sites.
 All sites on CloudCannon support Jekyll plugins.
