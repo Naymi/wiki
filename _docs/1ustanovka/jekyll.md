@@ -1,5 +1,5 @@
 ---
-title: Jekyll
+title: Установка Ctlos
 category: Установка
 order: 1
 post_video: 
@@ -8,15 +8,25 @@ comments: true
 edit: true
 
 ---
-CloudCannon builds all new sites with Jekyll.
+Предварительно отформатируйте usb накопитель (например в gparted).
 
-Sites **without** a `Gemfile` are built with:
+### Кросплатформенные (Linux, Windows).
 
-```bash
-$ jekyll build
-```
+[https://etcher.io/](https://etcher.io/ "https://etcher.io/")
 
-Sites **with** a `Gemfile` are built with:
+### Windows.
+
+Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
+
+### Linux.
+
+Форматирование usb.
+
+`sudo mkfs.vfat /dev/sdX -I`  
+  
+Запись.
+
+`sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync`
 
 ```bash
 $ bundle install
