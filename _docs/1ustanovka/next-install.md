@@ -68,9 +68,10 @@ sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p 
 `sudo nano /etc/pacman.conf`
 
 Убрать **#**
-
-`[multilib]`  
-`Include = /etc/pacman.d/mirrorlist`
+```
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
 
 Синхронизируем.
 
