@@ -47,10 +47,8 @@ sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-ke
 #### Оптимизирование зеркал **Reflector**.
 
 В Ctlos установлен скрипт `~/.bin/mirrors`  
-Отредактируйте его под свою страну, а затем запустите от обычного пользователя.
+Отредактируйте его под свою страну, а затем запустите от обычного пользователя `mirrors`.
 
-`mirrors`  
-  
 Либо напрямую командой.
 
 ```bash
@@ -59,14 +57,12 @@ sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p 
 
 Или по одной.
 
-```bash
-sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist
-```
+    sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist
 
 Проверим.
 
-`cat /etc/pacman.d/mirrorlist`  
-  
+`cat /etc/pacman.d/mirrorlist`
+
 Для поддержки 32-битных библиотек раскомментируйте репозиторий multilib.
 
 `sudo nano /etc/pacman.conf`
@@ -86,11 +82,11 @@ sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.
 
 #### Используйте алиасы.
 
-Алиасы в `~/.alias_zsh`  
-  
+Алиасы в `~/.alias_zsh`
+
 В связи с тем, что **Yaourt** больше не поддерживается он был заменен на **yay**.  
-**Yay** работает, как **pacman**, т.е. выполняет теже функции, поэтому я в основном использую команды yay для манипуляции с пакетами. Вот данный набор из файла.  
-  
+**Yay** работает, как **pacman**, т.е. выполняет теже функции, поэтому я в основном использую команды yay для манипуляции с пакетами. Вот данный набор из файла.
+
 `alias y="yay -S"` установка.  
 `alias yn="yay -S --noconfirm"` установка без подтверждения.  
 `alias ygpg="yay -S --m-arg "--skippgpcheck" --noconfirm"` установка и игнорирование проверки gpg ключа.  
@@ -102,10 +98,10 @@ sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.
 `alias yu="yay -Syu"` обновление.  
 `alias yun="yay -Syu --noconfirm"` обновление без подтверждения.  
 `alias yr="yay -R"` удаление пакет(а,ов).  
-`alias yrn="yay -R --noconfirm"` удаление пакет(а,ов) без подтверждения.  
-  
-Пример удаления.   
-`yrn htop`  
-  
+`alias yrn="yay -R --noconfirm"` удаление пакет(а,ов) без подтверждения.
+
+Пример удаления.  
+`yrn htop`
+
 И команда `cache`, для очистки кэша пакетов и оптимизация базы pacman.  
 Все мои исполняемые скрипты лежат в **\~/.bin**
