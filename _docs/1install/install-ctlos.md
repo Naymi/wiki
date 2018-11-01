@@ -6,7 +6,6 @@ post_video:
 post_photo_path: 
 comments: true
 edit: true
-
 ---
 Скачайте iso образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "Скачать Ctlos Linux")
 
