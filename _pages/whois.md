@@ -1,6 +1,6 @@
 ---
 title: Кратко о Ctlos Linux
-permalink: /about/
+permalink: /whois/
 post_video: 
 post_photo_path: 
 comments: false
