@@ -2,8 +2,9 @@
 title:
 category: Резервное копирование
 order: 1
+permalink:
 post_video: T8nq4yGP9EU
-post_photo_path: /wiki/images/overview/file-browser-add-menu.png
+post_photo_path: /wiki/images/1install/install-ctlos/file-browser-add-menu.png
 comments: true
 edit: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: Установка Ctlos Linux
 category: Установка
+permalink:
 order: 1
 post_video: 
 post_photo_path: 
