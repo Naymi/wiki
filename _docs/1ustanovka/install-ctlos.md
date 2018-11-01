@@ -22,11 +22,11 @@ Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 
 Форматирование usb.
 
-`sudo mkfs.vfat /dev/sdX -I`  
-  
-Запись.
+    sudo mkfs.vfat /dev/sdX -I
 
-`sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync`
+Запись образа dd.
+
+    sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
 
 ```bash
 $ bundle install
