@@ -9,6 +9,8 @@ edit: true
 ---
 
 
+[link](url){:target="_blank"}
+
 #### {% include icons/edit.svg %} Editing
 {: id="editing"}
 
