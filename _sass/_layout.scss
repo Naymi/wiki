@@ -428,6 +428,11 @@ h4 svg {
 	vertical-align: middle;
 
 	&.major {
+		background: $red;
+		color: #fff;
+	}
+
+	&.minor {
 		background: $brand-colour;
 		color: #fff;
 	}

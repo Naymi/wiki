@@ -79,5 +79,6 @@ defaults:
         type: Marks the impact of this release
 
 types:
-  - minor
   - major
+  - minor
+  - patch
