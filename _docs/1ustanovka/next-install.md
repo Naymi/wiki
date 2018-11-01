@@ -2,11 +2,6 @@
 title: После установки
 category: Установка
 order: 2
-requirements:
-  build: Jekyll
-  plan: Free
-  hosting: Any
-
 ---
 Всегда помните о **Arch Wiki**, все необходимые ответы уже присутствуют, не ленитесь читать.  
 [https://wiki.archlinux.org/index.php/Main_page_](https://wiki.archlinux.org/index.php/Main_page_ "https://wiki.archlinux.org/index.php/Main_page_")[(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)](https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))  
