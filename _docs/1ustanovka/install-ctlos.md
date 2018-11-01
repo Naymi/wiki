@@ -10,15 +10,11 @@ edit: true
 ---
 Скачайте образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
 
-Предварительно отформатируйте usb накопитель (например в gparted).
+## Запись iso образа на usb накопитель.
 
-#### Кросплатформенные (Linux, Windows).
+Предварительно отформатируйте usb накопитель в fat32, например в **gparted**.
 
-[https://etcher.io/](https://etcher.io/ "https://etcher.io/")
-
-#### Windows.
-
-Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
+### Программы для записи iso образа.
 
 #### Linux.
 
@@ -30,6 +26,16 @@ Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 
     sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
 
-### Static web
+#### Кросплатформенные (Linux, Windows).
 
-> Static sites work seamlessly in a [Jekyll](/building/jekyll/) build, gaining access to more editing features in CloudCannon.
+[https://etcher.io/](https://etcher.io/ "https://etcher.io/")
+
+#### Windows.
+
+Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
+
+## Установка.
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe src="https://www.youtube.com/embed/xaaAoakklfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
