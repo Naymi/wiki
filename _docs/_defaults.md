@@ -1,9 +1,9 @@
 ---
 title:
-category:
+category: Резервное копирование
 order: 1
-post_video: 
-post_photo_path: 
+post_video: T8nq4yGP9EU
+post_photo_path: /wiki/images/overview/file-browser-add-menu.png
 comments: true
 edit: true
 ---
