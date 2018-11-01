@@ -1,5 +1,5 @@
 ---
-title: Установка Ctlos
+title: Установка Ctlos Linux
 category: Установка
 order: 1
 post_video: 
@@ -8,7 +8,7 @@ comments: true
 edit: true
 
 ---
-Скачайте образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
+Скачайте iso образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
 
 ## Запись iso образа на usb накопитель.
 
@@ -37,5 +37,5 @@ Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 ## Установка.
 
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe src="https://www.youtube.com/embed/xaaAoakklfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xaaAoakklfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
