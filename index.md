@@ -7,8 +7,8 @@ edit: false
 ---
 Добро пожаловать. Существует локальный файл в формате Cherrytree с некоторыми моими заметками, я его буду постепенно переносить сюда, а пока можете скачать его.
 
-Установите программу Cherrytree. [giuspen.com/cherrytree](https://www.giuspen.com/cherrytree/#downl)
-Скачайте файл с Документацией. [ctlos-wiki.ctb](https://mega.nz/#F!LMwFCbZZ!1BBO4jpZz92XEPyrEtxw3Q)
+Установите программу Cherrytree. [giuspen.com/cherrytree](https://www.giuspen.com/cherrytree/#downl){:target="_blank"}
+Скачайте файл с Документацией. [ctlos-wiki.ctb](https://mega.nz/#F!LMwFCbZZ!1BBO4jpZz92XEPyrEtxw3Q){:target="_blank"}
 
 > Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
 
