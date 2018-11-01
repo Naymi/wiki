@@ -8,6 +8,7 @@ edit: false
 Существует локальный файл в формате Cherrytree с некоторыми моими заметками, я его буду постепенно переносить сюда, а пока можете скачать его.
 
 Установите программу Cherrytree. [giuspen.com/cherrytree](https://www.giuspen.com/cherrytree/#downl){:target="_blank"}
+`sudo pacman -S cherrytree`
 
 Скачайте файл с Документацией. [ctlos-wiki.ctb](https://mega.nz/#F!LMwFCbZZ!1BBO4jpZz92XEPyrEtxw3Q){:target="_blank"}
 
