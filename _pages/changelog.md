@@ -5,6 +5,8 @@ permalink: /changelog/
 
 <p>Подпишись на <a href="{{ site.baseurl }}/feed.xml">RSS</a>, чтобы быть в курсе последних обновлений.</p>
 
+<p>Текущая и Прошлые версии доступны для скачивания на данной странице <a target="_blank" href="https://github.com/ctlos/ctlosiso/releases">github.com</a>. Последнии и наиболее актуальные версии представлены на странице загрузки <a target="_blank" href="https://ctlos.github.io/get">ctlos.github.io/get</a>.</p>
+
 <div class="changelog">
 	{% for change in site.posts %}
 		<div class="changelog-item">
