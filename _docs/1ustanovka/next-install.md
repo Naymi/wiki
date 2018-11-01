@@ -40,7 +40,9 @@ requirements:
 
 #### Обновить ключи.
 
-`sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys && sudo pacman -Syy`
+```bash
+sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys && sudo pacman -Syy
+```
 
 #### Оптимизирование зеркал **Reflector**.
 
@@ -51,11 +53,15 @@ requirements:
   
 Либо напрямую командой.
 
-`sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p https -p http -n 20 --save /etc/pacman.d/mirrorlist --sort rate`  
-  
+```bash
+sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p https -p http -n 20 --save /etc/pacman.d/mirrorlist --sort rate
+```
+
 Или по одной.
 
-`sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist`
+```bash
+sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist
+```
 
 Проверим.
 
