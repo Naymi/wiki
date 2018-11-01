@@ -3,7 +3,7 @@ title: После установки
 category: Установка
 order: 2
 post_video: 
-post_photo_path: /wiki/images/overview/file-browser-add-menu.png
+post_photo_path: 
 comments: true
 edit: true
 ---
