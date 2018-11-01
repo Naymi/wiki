@@ -1,5 +1,5 @@
 ---
-title: Change Log
+title: Лог Изменений
 permalink: /changelog/
 ---
 
