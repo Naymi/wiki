@@ -14,15 +14,15 @@ edit: true
 Интерфейс очень простой, главное правильно настроить исключения. Это нужно для того, чтобы вы не дампили большие и не нужные каталоги вашей системы, т.к. это экономит время и место на диске, а работоспособность сохраняется. В пример могу привести каталог virtualbox, мне например он в копии системы не нужен, в том числе и смонтированный диск `/home/st/files`, думаю вы поняли.
 
 Вот мой список правил. Важно, правила исключений должны быть выше домашней директории, измените путем перетаскивания.
-
-![File Browser with Add Files menu open](/wiki/images/2backup/timeshift-rsync/exclude-timeshift.png)
+![Timeshift exclude](/wiki/images/2backup/timeshift-rsync/exclude-timeshift.png)
 
 ## Rsync, привет консоль :)
+![Code](https://giphy.com/gifs/ZVik7pBtu9dNS/html5)
 
 Монтируем раздел для резервной копии, предварительно создайте каталог.
 `mount /dev/sdb1 /dump`
 
-Копируем `/` в `/dump` с исключением, но с созданием нужных дерикторий (*).
+Копируем `/` в `/dump` с исключением, но с созданием нужных дерикторий.
 ```bash
 rsync -aAXv --delete --delete-excluded --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/var/lib/pacman/sync/*","/var/cache/*","/var/tmp/*","/boot/*","/home/*"} /* /dump/
 ```
