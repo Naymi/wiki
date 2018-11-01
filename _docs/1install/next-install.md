@@ -3,9 +3,7 @@ title: После установки
 category: Установка
 order: 2
 ---
-Всегда помните о **Arch Wiki**, все необходимые ответы уже присутствуют, не ленитесь читать.  
-[https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)](https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9) "Arch Wiki"){:target="_blank"}
-Более актуальная информация на англ. языке.
+> Всегда помните о **Arch Wiki**, все необходимые ответы уже присутствуют, не ленитесь читать. [https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)](https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9) "Arch Wiki"){:target="_blank"} Более актуальная информация на англ. языке.
 
 #### Информация о вашей системе.
 `neofetch`
