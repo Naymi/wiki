@@ -83,13 +83,13 @@
 				<h3>{{ page.title }}</h3>
 			</div>
 			<article class="content">
+				{% include edit.html %}
 				{% if page.post_video %}
 				<div class="embed-responsive embed-responsive-16by9">
 					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.post_video }}?autoplay=0&showinfo=0&controls=1&color=red&disablekb=1&rel=0" modestbranding="1" frameborder="0" theme="dark" allowfullscreen></iframe>
 				</div>
 				{% endif %}
 				{% if page.post_photo_path %}<img class="post-img" src="{{ page.post_photo_path }}" alt="{{ page.title }}">{% endif %}
-				{% include edit.html %}
 				{{ content }}
 				{% include edit.html %}
 				{% if site.disqus_shortname %}
