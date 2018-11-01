@@ -163,15 +163,7 @@ header {
 	background-color: $content-background-color;
 	color: $content-color;
 
-	h3::before {
-		content: "";
-		@extend hr;
-		margin: 60px 0;
-	}
-
-	.details h3::before {
-		display: none;
-	}
+	
 }
 
 .content,
@@ -412,6 +404,16 @@ h4 svg {
 	.date {
 		color: #888;
 		font-style: italic;
+	}
+
+	h3::before {
+		content: "";
+		@extend hr;
+		margin: 60px 0;
+	}
+
+	.details h3::before {
+		display: none;
 	}
 }
 
