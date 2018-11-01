@@ -8,7 +8,7 @@ comments: true
 edit: true
 
 ---
-Скачайте образ [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
+Скачайте образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
 
 Предварительно отформатируйте usb накопитель (например в gparted).
 
