@@ -4,23 +4,19 @@ category: Установка
 order: 2
 ---
 Всегда помните о **Arch Wiki**, все необходимые ответы уже присутствуют, не ленитесь читать.  
-[https://wiki.archlinux.org/index.php/Main_page_](https://wiki.archlinux.org/index.php/Main_page_ "https://wiki.archlinux.org/index.php/Main_page_")[(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)](https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9))  
+[https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)](https://wiki.archlinux.org/index.php/Main_page_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9) "Arch Wiki"){:target="_blank"}
 Более актуальная информация на англ. языке.
 
 #### Информация о вашей системе.
-
 `neofetch`
 
 #### Скорость интернета.
-
 `speedtest-cli`
 
 #### Изменить облочку bash на **zsh**.
-
 `chsh -s /bin/zsh`
 
 Или на bash
-
 `chsh -s /bin/bash`
 
 Перезайдите в систему.
@@ -45,21 +41,19 @@ sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-ke
 Отредактируйте его под свою страну, а затем запустите от обычного пользователя `mirrors`.
 
 Либо напрямую командой.
-
 ```bash
 sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p https -p http -n 20 --save /etc/pacman.d/mirrorlist --sort rate
 ```
 
 Или по одной.
-
-    sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist
+```bash
+sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist
+```
 
 Проверим.
-
 `cat /etc/pacman.d/mirrorlist`
 
 Для поддержки 32-битных библиотек раскомментируйте репозиторий multilib.
-
 `sudo nano /etc/pacman.conf`
 
 Убрать **#**
@@ -69,11 +63,9 @@ Include = /etc/pacman.d/mirrorlist
 ```
 
 Синхронизируем.
-
 `sudo pacman -Sy`
 
 Обновление всей системы.
-
 `sudo pacman -Syu`
 
 #### Используйте алиасы.

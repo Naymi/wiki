@@ -8,7 +8,7 @@ comments: true
 edit: true
 
 ---
-Скачайте iso образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
+Скачайте iso образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "Скачать Ctlos Linux")
 
 ## Запись iso образа на usb накопитель.
 
