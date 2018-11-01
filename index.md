@@ -13,6 +13,9 @@ edit: false
 
 > Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
 
+#### Кратко о Ctlos Linux.
+[ctlos.github.io/wiki/about](https://ctlos.github.io/wiki/about){:target="_blank"}
+
 #### Главная страница сайта.
 [Ctlos Linux](https://ctlos.github.io){:target="_blank"}
 
