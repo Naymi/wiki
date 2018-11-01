@@ -8,18 +8,19 @@ comments: true
 edit: true
 
 ---
+Скачайте образ [https://ctlos.github.io/get](https://ctlos.github.io/get "https://ctlos.github.io/get")
 
 Предварительно отформатируйте usb накопитель (например в gparted).
 
-### Кросплатформенные (Linux, Windows).
+#### Кросплатформенные (Linux, Windows).
 
 [https://etcher.io/](https://etcher.io/ "https://etcher.io/")
 
-### Windows.
+#### Windows.
 
 Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 
-### Linux.
+#### Linux.
 
 Форматирование usb.
 
