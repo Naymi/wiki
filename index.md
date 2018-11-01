@@ -1,13 +1,28 @@
 ---
-layout: none
-title: SAML
-category: Authentication
-order: 4
-permalink: 
+title: Wiki Ctlos Linux
+post_video: 
+post_photo_path: 
+comments: false
+edit: false
 ---
+Добро пожаловать. Существует локальный файл в формате Cherrytree с некоторыми моими заметками, я его буду постепенно переносить сюда, а пока можете скачать его.
 
-## Установите программу Cherrytree
-[giuspen.com/cherrytree](https://www.giuspen.com/cherrytree/#downl)
+Установите программу Cherrytree. [giuspen.com/cherrytree](https://www.giuspen.com/cherrytree/#downl)
+Скачайте файл с Документацией. [ctlos-wiki.ctb](https://mega.nz/#F!LMwFCbZZ!1BBO4jpZz92XEPyrEtxw3Q)
 
-## Скачайте файл с Документацией
-[ctlos-wiki.ctb](https://mega.nz/#F!LMwFCbZZ!1BBO4jpZz92XEPyrEtxw3Q)
+> Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
+
+#### Главная страница сайта.
+[Ctlos Linux](https://ctlos.github.io){:target="_blank"}
+
+#### Изменения и обновления, есть подписка по rss.
+[Ctlos Changelog](https://ctlos.github.io/wiki/changelog){:target="_blank"}
+
+#### Подпишитесь на youtube канал автора.
+[youtube.com](https://youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1){:target="_blank"}
+
+#### В случае возникновения вопросов, предложений, задать их можно здесь.
+[ctlos.github.io/contact](https://ctlos.github.io/contact){:target="_blank"}
+
+#### Поддержите нас $.
+[Donation](https://ctlos.github.io/donat){:target="_blank"}
