@@ -16,6 +16,8 @@ edit: true
 Вот мой список правил. Важно, правила исключений должны быть выше домашней директории, измените путем перетаскивания.
 ![Timeshift exclude](/wiki/images/2backup/timeshift-rsync/exclude-timeshift.png)
 
+Существует и консольный вариант timeshift, вы можите сделать `chroot` вашу систему, смонтировать разделы и откатить версию. В help есть примеры, все просто. `timeshift -h`
+
 ## Rsync, привет консоль :)
 ![Terminal](https://thumbs.gfycat.com/ComplexNeighboringBoilweevil-size_restricted.gif)
 
