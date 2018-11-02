@@ -15,19 +15,19 @@ edit: false
 > Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
 
 #### Кратко о Ctlos Linux.
-[ctlos.github.io/wiki/whois](https://ctlos.github.io/wiki/whois){:target="_blank"}
+[ctlos.github.io/wiki/whois](https://ctlos.github.io/wiki/whois)
 
 #### Главная страница сайта.
-[Ctlos Linux](https://ctlos.github.io){:target="_blank"}
+[Ctlos Linux](https://ctlos.github.io)
 
 #### Изменения и обновления, есть подписка по rss.
-[Ctlos Changelog](https://ctlos.github.io/wiki/changelog){:target="_blank"}
+[Ctlos Changelog](https://ctlos.github.io/wiki/changelog)
 
-#### Подпишитесь на youtub канал автора.
+#### Подпишитесь на youtube канал автора.
 [youtube.com](https://youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1){:target="_blank"}
 
 #### В случае возникновения вопросов, предложений, задать их можно здесь.
-[ctlos.github.io/contact](https://ctlos.github.io/contact){:target="_blank"}
+[ctlos.github.io/contact](https://ctlos.github.io/contact)
 
 #### Поддержите нас $.
-[Donation](https://ctlos.github.io/donat){:target="_blank"}
+[Donation](https://ctlos.github.io/donat)

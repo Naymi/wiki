@@ -17,7 +17,7 @@ edit: true
 ![Timeshift exclude](/wiki/images/2backup/timeshift-rsync/exclude-timeshift.png)
 
 ## Rsync, привет консоль :)
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+![Terminal](https://thumbs.gfycat.com/ComplexNeighboringBoilweevil-size_restricted.gif)
 
 Монтируем раздел для резервной копии, предварительно создайте каталог.
 `mount /dev/sdb1 /dump`
