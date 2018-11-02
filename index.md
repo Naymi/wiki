@@ -16,7 +16,6 @@ edit: false
 
 #### Кратко о Ctlos Linux.
 [ctlos.github.io/wiki/whois](https://ctlos.github.io/wiki/whois)
-[![GitHub Releases](https://img.shields.io/github/downloads/atom/atom/latest/total.svg?style=flat-square)](https://github.com/ctlos/ctlosiso)
 
 #### Главная страница сайта.
 [Ctlos Linux](https://ctlos.github.io)
