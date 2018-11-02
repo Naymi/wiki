@@ -20,6 +20,9 @@ edit: false
 #### Главная страница сайта.
 [Ctlos Linux](https://ctlos.github.io)
 
+#### Cтраница загрузки.
+[![GitHub All Releases](https://img.shields.io/github/downloads/ctlos/ctlosiso/total.svg)](https://ctlos.github.io/get)
+
 #### Изменения и обновления, есть подписка по rss.
 [Ctlos Changelog](https://ctlos.github.io/wiki/changelog)
 
