@@ -7,7 +7,8 @@ permalink: /changelog/
 
 Прошлые версии доступны для скачивания на данной странице <a target="_blank" href="https://github.com/ctlos/ctlosiso/releases">github.com releases</a>.
 
-Последние и наиболее актуальные версии представлены на странице загрузки <a target="_blank" href="https://ctlos.github.io/get">ctlos.github.io/get</a>. [![GitHub All Releases](https://img.shields.io/github/downloads/ctlos/ctlosiso/total.svg)](https://ctlos.github.io/get)
+> Последние и наиболее актуальные версии представлены на странице загрузки <a target="_blank" href="https://ctlos.github.io/get">ctlos.github.io/get</a>. [![GitHub All Releases](https://img.shields.io/github/downloads/ctlos/ctlosiso/total.svg)](https://ctlos.github.io/get)
+{: .warning}
 
 <div class="changelog">
 	{% for change in site.posts %}

@@ -21,4 +21,7 @@ edit: true
 	<iframe src="https://www.youtube.com/embed/xaaAoakklfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+> blabla
+{: .warning}
+
 —
