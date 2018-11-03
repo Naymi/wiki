@@ -40,7 +40,7 @@ Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 	<iframe src="https://www.youtube.com/embed/xaaAoakklfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Проверка ISO образа
+## Проверка ISO образа.
 
 ### Проверка контрольных сумм в Windows.
 
