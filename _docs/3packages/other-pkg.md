@@ -11,7 +11,7 @@ edit: true
 
 > Некоторые пояснения и рекомендации по использованию.
 
-### Содержание статьи:
+#### Содержание статьи:
 - [Steam](/wiki/3packages/other-pkg/#steam)
 - [Установка и запуск Tor](/wiki/3packages/other-pkg/#установка-и-запуск-tor)
 - [Bluetooth](/wiki/3packages/other-pkg/#bluetooth)
@@ -20,7 +20,7 @@ edit: true
 
 ## Steam
 Необходимо раскомментировать репозиторий **multilib** в `/etc/pacman.conf`
-```
+```bash
 sudo pacman -S steam ttf-liberation lib32-alsa-plugins lib32-curl
 ```
 
@@ -30,46 +30,51 @@ sudo pacman -S steam ttf-liberation lib32-alsa-plugins lib32-curl
 
 ---
 
-## Установка и запуск Tor.  
-`sudo pacman -S tor torsocks`
-
-```
-sudo systemctl daemon-reload
-sudo systemctl restart tor
+## Установка и запуск Tor.
+```bash
+sudo pacman -S tor torsocks
 ```
 
 Запуск, остановка сервиса tor.
-```
+```bash
 sudo systemctl start tor
 sudo systemctl stop tor
 ```
 
 Запуск через tor.
-```
+```bash
 torify zsh
 torify ssh user@blabla -p 22
 ```
 
-Проверка ip.  
-`curl --max-time 10 -w '\n' http://ident.me`
+Проверка ip.
+```bash
+curl --max-time 10 -w '\n' http://ident.me
+```
 
 В firefox используйте расширение FoxyProxy.
 
 > В настройках расширения, Добавить новый SOCKS4, ip: 127.0.0.1, port: 9050
 
-Chromium запустите с флагом.  
-`chromium --proxy-server='socks://127.0.0.1:9050' &`
+Chromium запустите с флагом.
 
-Если нужно отредактируйте сервис.  
-`sudo nano /usr/lib/systemd/system/tor.service`
-
+```bash
+chromium --proxy-server='socks://127.0.0.1:9050' &
 ```
+
+Если нужно отредактируйте сервис.
+
+```bash
+sudo nano /usr/lib/systemd/system/tor.service
+```
+
+```bash
 [Service]
 User=root
 Group=root
 Type=simple
 ```
-```
+```bash
 sudo chown -R root:root /var/lib/tor/
 sudo systemctl daemon-reload
 sudo systemctl restart tor
@@ -78,7 +83,7 @@ sudo systemctl restart tor
 ---
 
 ## Bluetooth.
-```
+```bash
 sudo pacman -S blueman bluez-utils pulseaudio-bluetooth
 sudo systemctl enable bluetooth.service
 ```
@@ -87,22 +92,30 @@ sudo systemctl enable bluetooth.service
 
 ## Офисные пакеты.
 
-Wps office.  
-`yay -S wps-office ttf-wps-fonts wps-office-extension-russian-dictionary --noconfirm`
+Wps office.
+```bash
+yay -S wps-office ttf-wps-fonts wps-office-extension-russian-dictionary --noconfirm
+```
 
-Libre office.  
-`yay -S libreoffice-fresh libreoffice-fresh-ru papirus-libreoffice-theme --noconfirm`
+Libre office.
+```bash
+yay -S libreoffice-fresh libreoffice-fresh-ru papirus-libreoffice-theme --noconfirm
+```
 
-Openoffice.  
-`yay -S openoffice openoffice-ru-bin --noconfirm`
+Openoffice.
+```bash
+yay -S openoffice openoffice-ru-bin --noconfirm
+```
 
-Onlyoffice.  
-`yay -S onlyoffice-bin --noconfirm`
+Onlyoffice.
+```bash
+yay -S onlyoffice-bin --noconfirm
+```
 
 ---
 
 ## Принтеры.
-```
+```bash
 sudo pacman -S cups cups-pdf cups-pk-helper system-config-printer
 sudo systemctl enable org.cups.cupsd.service
 ```
