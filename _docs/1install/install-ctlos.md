@@ -47,10 +47,10 @@ Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 [raylin.wordpress.com](http://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/){:target="_blank"}
 
 ### В Linux. Проверка MD5.  
-`md5sum Ctlos.iso`
+`md5sum ctlos_xfce_1.0.0_20181102.iso`
 
 #### Проверка  SHA256.  
-`sha256sum Ctlos.iso`
+`sha256sum ctlos_xfce_1.0.0_20181102.iso`
 
 #### GPG.  
 `sudo pacman -S gnupg`
