@@ -12,9 +12,23 @@ edit: true
 > Некоторые пояснения и рекомендации по использованию.
 
 ### Содержание статьи:
-- [Установка и запуск Tor]({{ site.baseurl }}/3packages/other-pkg/#установка-и-запуск-tor)
-- [Офисные пакеты]({{ site.baseurl }}/3packages/other-pkg/#офисные-пакеты)
-- [Принтеры]({{ site.baseurl }}/3packages/other-pkg/#принтеры)
+- [Steam](/wiki/3packages/other-pkg/#steam)
+- [Установка и запуск Tor](/wiki/3packages/other-pkg/#установка-и-запуск-tor)
+- [Bluetooth](/wiki/3packages/other-pkg/#bluetooth)
+- [Офисные пакеты](/wiki/3packages/other-pkg/#офисные-пакеты)
+- [Принтеры](/wiki/3packages/other-pkg/#принтеры)
+
+## Steam
+Необходимо раскомментировать репозиторий **multilib** в `/etc/pacman.conf`
+```
+sudo pacman -S steam ttf-liberation lib32-alsa-plugins lib32-curl
+```
+
+[wiki.archlinux.org](https://wiki.archlinux.org/index.php/Steam_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}.
+
+Или установите Steam через [Flatpak](/wiki/1install/pkg-manager.md#еще-один-из-немногих-иенеджеров-flatpak){:target="_blank"}.
+
+---
 
 ## Установка и запуск Tor.  
 `sudo pacman -S tor torsocks`
@@ -59,6 +73,14 @@ Type=simple
 sudo chown -R root:root /var/lib/tor/
 sudo systemctl daemon-reload
 sudo systemctl restart tor
+```
+
+---
+
+## Bluetooth.
+```
+sudo pacman -S blueman bluez-utils pulseaudio-bluetooth
+sudo systemctl enable bluetooth.service
 ```
 
 ---
