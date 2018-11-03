@@ -60,7 +60,9 @@ sudo chown -R root:root /var/lib/tor/
 sudo systemctl daemon-reload
 sudo systemctl restart tor
 ```
+
 ---
+
 ## Офисные пакеты.
 
 Wps office.  
@@ -74,7 +76,9 @@ Openoffice.
 
 Onlyoffice.  
 `yay -S onlyoffice-bin --noconfirm`
+
 ---
+
 ## Принтеры.
 ```
 sudo pacman -S cups cups-pdf cups-pk-helper system-config-printer
