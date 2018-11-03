@@ -11,7 +11,7 @@ edit: true
 
 > Некоторые пояснения и рекомендации по использованию.
 
-Содержание статьи:
+### Содержание статьи:
 - [Установка и запуск Tor]({{ site.baseurl }}/3packages/other-pkg/#установка-и-запуск-tor)
 - [Офисные пакеты]({{ site.baseurl }}/3packages/other-pkg/#офисные-пакеты)
 - [Принтеры]({{ site.baseurl }}/3packages/other-pkg/#принтеры)
@@ -60,7 +60,7 @@ sudo chown -R root:root /var/lib/tor/
 sudo systemctl daemon-reload
 sudo systemctl restart tor
 ```
-
+---
 ## Офисные пакеты.
 
 Wps office.  
@@ -74,7 +74,7 @@ Openoffice.
 
 Onlyoffice.  
 `yay -S onlyoffice-bin --noconfirm`
-
+---
 ## Принтеры.
 ```
 sudo pacman -S cups cups-pdf cups-pk-helper system-config-printer
