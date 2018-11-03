@@ -78,16 +78,16 @@ Include = /etc/pacman.d/mirrorlist
 В связи с тем, что **Yaourt** больше не поддерживается он был заменен на **yay**.  
 **Yay** работает, как **pacman**, т.е. выполняет теже функции, поэтому я в основном использую команды yay для манипуляции с пакетами. Вот данный набор из файла.
 
-`alias y="yay -S"` установка.
-`alias yn="yay -S --noconfirm"` установка без подтверждения.
-`alias ygpg="yay -S --m-arg "--skippgpcheck" --noconfirm"` установка и игнорирование проверки gpg ключа.
-`alias ys="yay"` поиск с дальнейшим выбором по цифре.
-`alias ysn="yay --noconfirm"` поиск с дальнейшим выбором по цифре, без подтверждения.
-`alias yc="yay -Sc"` частичная очистка кэша.
-`alias yy="yay -Syy"` синхронизация баз зеркал.
-`alias yu="yay -Syu"` обновление.
-`alias yun="yay -Syu --noconfirm"` обновление без подтверждения.
-`alias yr="yay -R"` удаление пакет(а,ов).
+`alias y="yay -S"` установка.  
+`alias yn="yay -S --noconfirm"` установка без подтверждения.  
+`alias ygpg="yay -S --m-arg "--skippgpcheck" --noconfirm"` установка и игнорирование проверки gpg ключа.  
+`alias ys="yay"` поиск с дальнейшим выбором по цифре.  
+`alias ysn="yay --noconfirm"` поиск с дальнейшим выбором по цифре, без подтверждения.  
+`alias yc="yay -Sc"` частичная очистка кэша.  
+`alias yy="yay -Syy"` синхронизация баз зеркал.  
+`alias yu="yay -Syu"` обновление.  
+`alias yun="yay -Syu --noconfirm"` обновление без подтверждения.  
+`alias yr="yay -R"` удаление пакет(а,ов).  
 `alias yrn="yay -R --noconfirm"` удаление пакет(а,ов) без подтверждения.
 
 Пример удаления.  
