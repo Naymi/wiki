@@ -9,12 +9,11 @@ comments: true
 edit: true
 ---
 
-Некоторые пояснения и рекомендации по использованию.
+> Некоторые пояснения и рекомендации по использованию.
 
 Содержание статьи:
 - [Офисные пакеты]({{ site.baseurl }}/3packages/other-pkg/#офисные-пакеты
-- [Установка и запуск Tor](/3packages/other-pkg/#установка-и-запуск-tor)
-
+- [Установка и запуск Tor]({{ site.baseurl }}/3packages/other-pkg/#установка-и-запуск-tor)
 
 ## Офисные пакеты.
 
@@ -29,7 +28,6 @@ Openoffice.
 
 Onlyoffice.  
 `yay -S onlyoffice-bin --noconfirm`
-
 
 ## Установка и запуск Tor.  
 `sudo pacman -S tor torsocks`
