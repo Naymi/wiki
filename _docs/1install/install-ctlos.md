@@ -58,7 +58,7 @@ http://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
 ### Импорт ключа и проверка образа.
 ```bash
 gpg --keyserver keys.gnupg.net --recv-keys 98F76D97B786E6A3
-gpg --verify Ctlos.iso.sig Ctlos.iso
+gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
 ```
 
 На этом проверка образа закончена, это несколько способов проверки, можите использовать любой, или все сразу.
