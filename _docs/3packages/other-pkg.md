@@ -1,5 +1,5 @@
 ---
-title: Установка доп. программ и рекомндации по использованию
+title: Установка доп. программ
 category: Дополнительные пакеты
 order: 1
 permalink:
@@ -9,7 +9,26 @@ comments: true
 edit: true
 ---
 
-- [Установка и запуск Tor]({{ site.baseurl }}/3packages/other-pkg/#установка-и-запуск-tor)
+Некоторые пояснения и рекомендации по использованию.
+
+Содержание статьи:
+- [Офисные пакеты]({{ site.baseurl }}/3packages/other-pkg/#офисные-пакеты
+- [Установка и запуск Tor](/3packages/other-pkg/#установка-и-запуск-tor)
+
+
+## Офисные пакеты.
+
+Wps office.  
+`yay -S wps-office ttf-wps-fonts wps-office-extension-russian-dictionary --noconfirm`
+
+Libre office.  
+`yay -S libreoffice-fresh libreoffice-fresh-ru papirus-libreoffice-theme --noconfirm`
+
+Openoffice.  
+`yay -S openoffice openoffice-ru-bin --noconfirm`
+
+Onlyoffice.  
+`yay -S onlyoffice-bin --noconfirm`
 
 
 ## Установка и запуск Tor.  
