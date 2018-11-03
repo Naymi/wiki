@@ -38,3 +38,18 @@ torify ssh user@blabla -p 22
 
 Chromium запустите с флагом.  
 `chromium --proxy-server='socks://127.0.0.1:9050' &`
+
+Если нужно отредактируйте сервис.  
+`sudo nano /usr/lib/systemd/system/tor.service`
+
+```
+[Service]
+User=root
+Group=root
+Type=simple
+```
+```
+sudo chown -R root:root /var/lib/tor/
+sudo systemctl daemon-reload
+sudo systemctl restart tor
+```
