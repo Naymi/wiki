@@ -21,8 +21,9 @@ cfdisk
 
 ```bash
 parted /dev/sda print
+```
 
-Форматируем
+Форматируем.
 ```bash
 mkfs.fat -F32 /dev/sda1
 ```
