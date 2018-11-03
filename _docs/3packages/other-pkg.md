@@ -12,6 +12,7 @@ edit: true
 > Некоторые пояснения и рекомендации по использованию.
 
 #### Содержание статьи:
+- [Discord](/wiki/3packages/other-pkg/#установка-discord)
 - [Virtualbox](/wiki/3packages/other-pkg/#virtualbox)
 - [Steam](/wiki/3packages/other-pkg/#steam)
 - [Установка и запуск Tor](/wiki/3packages/other-pkg/#установка-и-запуск-tor)
@@ -19,6 +20,29 @@ edit: true
 - [Офисные пакеты](/wiki/3packages/other-pkg/#офисные-пакеты)
 - [Принтеры](/wiki/3packages/other-pkg/#принтеры)
 
+## Установка discord
+
+Discord требует зависимости `libc++`, для которых необходим ключ gpg. О ключах смотрите [тут](/wiki/1install/install-ctlos/#проверка-iso-образа){:target="_blank"}. В терминале покажется ключ для импорта.
+
+```bash
+gpg --recv keys номер_ключа
+yay -S libc++
+yay -S discord
+```
+
+Или игнорируем проверку gpg.
+
+```bash
+yay -S --m-arg "--skippgpcheck" discord
+```
+
+Второй способ, [Flatpak](/wiki/1install/pkg-manager/#еще-один-из-немногих-иенеджеров-flatpak){:target="_blank"}.
+
+```bash
+flatpak install --user https://flathub.org/repo/appstream/com.discordapp.Discord.flatpakref
+```
+
+---
 
 ## Virtualbox
 
