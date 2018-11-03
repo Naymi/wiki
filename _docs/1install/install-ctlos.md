@@ -44,7 +44,7 @@ Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
 
 ### Проверка контрольных сумм в Windows.
 
-http://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
+[raylin.wordpress.com](http://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/){:target="_blank"}
 
 ### В Linux. Проверка MD5.  
 `md5sum Ctlos.iso`
@@ -65,7 +65,7 @@ gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
 
 ## Дополнительные команды gpg, для большего понимания.
 
-https://wiki.archlinux.org/index.php/GnuPG_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)
+[wiki.archlinux.org](https://wiki.archlinux.org/index.php/GnuPG_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}
 
 ### Генерация.  
 `gpg --full-gen-key`
