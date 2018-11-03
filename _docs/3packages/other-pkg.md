@@ -1,5 +1,5 @@
 ---
-title: Tor
+title: Установка доп. программ и рекомндации по использованию
 category: Дополнительные пакеты
 order: 1
 permalink:
@@ -8,6 +8,9 @@ post_photo_path:
 comments: true
 edit: true
 ---
+
+- [Установка и запуск Tor]({{ site.baseurl }}/3packages/other-pkg/#установка-и-запуск-tor)
+
 
 ## Установка и запуск Tor.  
 `sudo pacman -S tor torsocks`
