@@ -1,7 +1,7 @@
 ---
 title: Менеджеры пакетов
 category: Установка
-order: 1
+order: 3
 permalink:
 post_video: 
 post_photo_path:
@@ -9,7 +9,7 @@ comments: true
 edit: true
 ---
 
-Список некоторых программ с Arch Wiki [List_of_applications](https://wiki.archlinux.org/index.php/List_of_applications_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}.
+Список некоторых программ Arch Wiki [List_of_applications](https://wiki.archlinux.org/index.php/List_of_applications_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}.
 
 ## Пакетные менеджеры — Менеджеры программ.
 
@@ -19,8 +19,7 @@ edit: true
 
 ### Графические менеджеры пакетов.
 
-Pamac manager. Установка.  
-`yay -S pamac-aur`
+Pamac manager. Установка: `yay -S pamac-aur`  
 Навигация по категориям или поиск, в настройках включите поддержку aur.
 
 Меннеджер пакетов Gnome, хорошо использовать в связке с flatpak.  
