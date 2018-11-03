@@ -22,7 +22,7 @@ edit: true
 
 ## Установка discord
 
-Discord требует зависимости `libc++`, для которых необходим ключ gpg. О ключах смотрите [тут](/wiki/1install/install-ctlos/#проверка-iso-образа){:target="_blank"}. В терминале покажется ключ для импорта.
+Discord требует зависимости `libc++`, для которых необходим ключ gpg. О ключах смотрите [тут](/wiki/1install/install-ctlos/#проверка-iso-образа){:target="_blank"}. В терминале покажется ключ для импорта, если yay не предложит его импортировать, то.
 
 ```bash
 gpg --recv keys номер_ключа
@@ -33,7 +33,7 @@ yay -S discord
 Или игнорируем проверку gpg.
 
 ```bash
-yay -S --m-arg "--skippgpcheck" discord
+yay -S --mflags "--nocheck --skippgpcheck" libc++
 ```
 
 Второй способ, [Flatpak](/wiki/1install/pkg-manager/#еще-один-из-немногих-иенеджеров-flatpak){:target="_blank"}.
