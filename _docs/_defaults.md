@@ -16,8 +16,9 @@ edit: true
 {: id="editing"}
 
 ![File Browser with Add Files menu open](/wiki/images/overview/file-browser-add-menu.png)
-{: .has-screenshot}
 
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/xaaAoakklfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+—
