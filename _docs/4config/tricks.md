@@ -9,7 +9,6 @@ comments: true
 edit: true
 ---
 
-
 ### Установка ядра Linux-zen [Kernels](https://wiki.archlinux.org/index.php/Kernels){:target="_blank"}.
 
 Если у вас nvidia карта, драйвер также нужно заменить `sudo pacman -S nvidia-390xx-dkms`.
@@ -29,3 +28,33 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```bash
 compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil
 ```
+
+---
+
+## Решение некоторых проблем.
+
+### Ассоциации файлов.
+
+Это нужно, если у вас открывается файл не в той программе, директория в музыкальном проигрывателе.
+
+Распознаем файл.
+```bash
+xdg-mime query filetype wallpaper.jpg
+
+Проверяем дефолтные настройки.
+```bash
+xdg-mime query default inode/directory
+```
+
+Переопределяем.
+```bash
+xdg-mime default org.gnome.Nautilus.desktop inode/directory
+```
+
+Еще пример.
+```bash
+xdg-mime default vlc.desktop video/mp4
+```
+
+---
+
