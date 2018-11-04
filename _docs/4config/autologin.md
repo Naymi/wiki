@@ -1,7 +1,7 @@
 ---
 title: Автологин
 category: Конфигурирование системы
-order: 3
+order: 4
 permalink:
 post_video: 
 post_photo_path: 
@@ -16,7 +16,7 @@ edit: true
 exec openbox-session
 ```
 
-Добавить в `~/.bashrc`, Если используем Zsh, то `~/.zshrc`. Узнать какой у вас шелл, команда: `echo $SHELL` 
+Добавить в `~/.bashrc`, Если используем Zsh, то `~/.zshrc`. Узнать какой у вас шелл, команда: `echo $SHELL`.
 ```
 nano ~/.zshrc
 ```
