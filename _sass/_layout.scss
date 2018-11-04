@@ -70,6 +70,7 @@ body {
 
 .main {
 	margin-top: $space + $nav-header-height;
+	max-width: 1200;
 
 	@media (min-width: $mobile-break) {
 		margin-top: 0;
