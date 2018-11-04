@@ -8,7 +8,7 @@ post_photo_path:
 comments: true
 edit: true
 ---
-Скачайте iso образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "Скачать Ctlos Linux")
+Скачайте iso образ: [https://ctlos.github.io/get](https://ctlos.github.io/get "Скачать Ctlos Linux"){:target="_blank"}
 
 ## Запись iso образа на usb накопитель.
 
@@ -19,20 +19,22 @@ edit: true
 #### Linux.
 
 Форматирование usb.
-
-    sudo mkfs.vfat /dev/sdX -I
+```bash
+sudo mkfs.vfat /dev/sdX -I
+```
 
 Запись образа dd.
-
-    sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
+```bash
+sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
+```
 
 #### Кросплатформенные (Linux, Windows).
 
-[https://etcher.io/](https://etcher.io/ "https://etcher.io/")
+[https://etcher.io/](https://etcher.io/ "https://etcher.io/"){:target="_blank"}
 
 #### Windows.
 
-Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/")
+Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/"){:target="_blank"}
 
 ## Установка.
 
@@ -61,65 +63,6 @@ gpg --keyserver keys.gnupg.net --recv-keys 98F76D97B786E6A3
 gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
 ```
 
+Подробнее о [GnuPG](/wiki/3packages/gnupg){:target="_blank"}.
+
 На этом проверка образа закончена. Я привел несколько способов проверки, можите использовать любой, или все сразу.
-
-## Дополнительные команды gpg, для большего понимания.
-
-[wiki.archlinux.org](https://wiki.archlinux.org/index.php/GnuPG_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}
-
-#### Генерация, создание пары ключей.  
-`gpg --full-gen-key`
-
-#### Просмотр списка ключей.
-```
-gpg --list-keys
-gpg --list-secret-keys
-gpg --list-public-keys
-```
-
-#### Удалить ключ.
-```
-gpg --delete-secret-keys 812549
-gpg --delete-keys 812259
-```
-
-#### Редактировать ключ.  
-`gpg --edit-key mail@example.com`
-
-#### Экспорт открытого ключа в текстовом виде.  
-`gpg --armor --output pubkey.txt --export 812549`
-
-#### Экспорт закрытого ключа в текстовом виде.  
-`gpg --armor --output privkey.txt --export-secret-keys 812549`
-
-#### Экспорт открытого ключа на keyserver.  
-`gpg --keyserver keys.gnupg.net --send-keys 8123459`
-
-#### Импорт открытого ключа из файла.  
-`gpg --import key.txt`  
-или по номеру.  
-`gpg --recv keys 98F76D97B786E6A3`
-
-#### Импорт закрытого ключа.  
-`gpg --allow-secret-key-import --import privkey.txt`
-
-#### Импорт открытого ключа с keyserver.  
-`gpg --keyserver keys.gnupg.net --recv-keys 98F76D97B786E6A3`
-
-#### Поиск.  
-`gpg --keyserver keys.gnupg.net --search-keys mail@example.com`
-
-#### Обновление.  
-`gpg --keyserver keys.gnupg.net --refresh-keys`
-
-#### Пример подписи и проверки подписи.
-```
-gpg --detach-sign --no-armor ctlos.iso
-gpg --verify ctlos.iso.sig ctlos.iso
-```
-
-#### Зашифровать файл.  
-`gpg --encrypt-files -r A24F76A41D635F7A secret.tar`
-
-#### Расшифровать файл.  
-`gpg --decrypt-files secret.tar.gpg`
