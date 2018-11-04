@@ -9,15 +9,17 @@ comments: true
 edit: true
 ---
 
-Создание iso образа Ctlos Linux для 64-bit(x86_64)
+Создание iso образа Ctlos Linux для 64-bit(x86_64).
 
 Установить пакеты для сборки.
-
+```bash
 sudo pacman -S git archiso arch-install-scripts
+```
 
 Отредактировать файл.
-
+```bash
 sudo leafpad /usr/bin/mkarchiso
+```
 
 Не обязательно, добавляет подтверждение pacman. В строки ниже добавить ключ -i перед -с, ищите pacstrap, две строки. Сохранить и выйти.
 ```bash
