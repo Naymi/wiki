@@ -30,7 +30,7 @@ fi
 
 Выполнить.
 ```bash
-systemctl enable getty@.service
+sudo systemctl enable getty@.service
 ```
 
 Данная команда создаст файл и запустит systemd сервис, просмотреть.
