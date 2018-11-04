@@ -32,3 +32,7 @@ xdg-mime default org.gnome.Nautilus.desktop inode/directory
 ```bash
 xdg-mime default vlc.desktop video/mp4
 ```
+
+---
+
+### Сброс пароля root [Reset_root_password](https://wiki.archlinux.org/index.php/Reset_root_password_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}.
