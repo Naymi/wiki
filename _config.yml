@@ -45,7 +45,7 @@ sass:
 collections:
   docs:
     title: Ctlos Linux Wiki
-    permalink: /:path/
+    permalink: /:path
     output: true
 
 defaults:
