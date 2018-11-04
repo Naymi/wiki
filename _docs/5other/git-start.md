@@ -6,7 +6,7 @@ permalink:
 post_video: 
 post_photo_path: 
 comments: true
-edit: false
+edit: true
 ---
 
 Конфигурация.
