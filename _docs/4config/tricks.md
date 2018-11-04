@@ -40,6 +40,7 @@ compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vs
 Распознаем файл.
 ```bash
 xdg-mime query filetype wallpaper.jpg
+```
 
 Проверяем дефолтные настройки.
 ```bash
