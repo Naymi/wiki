@@ -25,17 +25,17 @@ lspci -k | grep -A 2 -E "(VGA|3D)"
 
 Пакеты lib32-* нужно устанавливать только на x86_64 системы, пердварительно расскоментировав репозиторий multilib в `/etc/pacman.conf`.
 
-Intel.
+### Intel.
 ```bash
 sudo pacman -S xf86-video-intel lib32-intel-dri
 ```
 
-Nvidia.
+### Nvidia.
 ```bash
 sudo pacman -S nvidia nvidia-settings nvidia-utils opencl-nvidia opencl-headers lib32-nvidia-utils lib32-opencl-nvidia
 ```
 
-Драйвер nvidia может иметь префикс nvidia-390xx, конкретней уточняйте на сайте производителя и в Арч-вики.
+Драйвер nvidia может иметь префикс nvidia-390xx, конкретно для вашей карты, уточняйте на сайте производителя и в Арч-вики.
 ```bash
 sudo pacman -S lib32-opencl-nvidia-390xx lib32-nvidia-390xx-utils opencl-nvidia-390xx nvidia-390xx-utils nvidia-390xx-settings nvidia-390xx
 ```
@@ -67,12 +67,12 @@ MODULES=(nouveau)
 sudo mkinitcpio -p linux
 ```
 
-AMD.
+### AMD.
 ```bash
 sudo pacman -S xf86-video-ati lib32-ati-dri
 ```
 
-Для виртуальной машины.
+### Для виртуальной машины.
 ```bash
 sudo pacman -S xf86-video-vesa
 ```
