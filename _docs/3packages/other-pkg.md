@@ -12,6 +12,7 @@ edit: true
 > Некоторые пояснения и рекомендации по использованию.
 
 #### Содержание статьи:
+- [Сборка пакетов](/wiki/3packages/other-pkg/#сборка-пакетов-из-исходников)
 - [Discord](/wiki/3packages/other-pkg/#установка-discord)
 - [Virtualbox](/wiki/3packages/other-pkg/#virtualbox)
 - [Steam](/wiki/3packages/other-pkg/#steam)
@@ -20,7 +21,38 @@ edit: true
 - [Офисные пакеты](/wiki/3packages/other-pkg/#офисные-пакеты)
 - [Принтеры](/wiki/3packages/other-pkg/#принтеры)
 
-## Установка discord
+## Сборка пакетов из исходников.
+
+Создать кваталог `~/.build` и перейти в него.
+```bash
+mkdir ~/.build && cd ~/.build
+```
+
+Найти нужный пакет на сайте [aur.archlinux.org](https://aur.archlinux.org){:target="_blank"} и загрузить snapshot.
+```bash
+wget https://aur.archlinux.org/cgit/aur.git/snapshot/gtk3-mushrooms.tar.gz
+```
+
+Распаковываем, переходим в каталог, собираем пакет и устанавливаем.
+```bash
+tar -xvzf gtk3-mushrooms.tar.gz
+cd gtk3-mushrooms
+makepkg -sri
+```
+
+Если вылазят ошибки ключей, можно проигнорировать.
+```bash
+makepkg -s --skippgpcheck
+```
+
+После сборки появится пакет с расширением `имя.pkg.tar.xz` Установить командой.
+```bash
+sudo pacman -U имя.pkg.tar.xz
+```
+
+---
+
+## Установка discord.
 
 Discord требует зависимости `libc++`, для которых необходим ключ gpg. О ключах смотрите [тут](/wiki/1install/install-ctlos/#проверка-iso-образа){:target="_blank"}. В терминале покажется ключ для импорта, если yay не предложит его импортировать, то.
 
@@ -31,7 +63,6 @@ yay -S discord
 ```
 
 Или игнорируем проверку gpg.
-
 ```bash
 yay -S --mflags "--nocheck --skippgpcheck" libc++
 ```
