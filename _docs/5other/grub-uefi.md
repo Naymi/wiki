@@ -1,7 +1,7 @@
 ---
 title: Установка Grub UEFI
 category: Прочее
-order: 1
+order: 3
 permalink:
 post_video: 
 post_photo_path: 

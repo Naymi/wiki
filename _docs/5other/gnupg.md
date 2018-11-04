@@ -13,18 +13,20 @@ edit: true
 
 [wiki.archlinux.org](https://wiki.archlinux.org/index.php/GnuPG_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)){:target="_blank"}
 
-Генерация, создание пары ключей.  
-`gpg --full-gen-key`
+Генерация, создание пары ключей.
+```bash
+gpg --full-gen-key
+```
 
 Просмотр списка ключей.
-```
+```bash
 gpg --list-keys
 gpg --list-secret-keys
 gpg --list-public-keys
 ```
 
 Удалить ключ.
-```
+```bash
 gpg --delete-secret-keys 812549
 gpg --delete-keys 812259
 ```
