@@ -1,7 +1,7 @@
 ---
 title: Ctlos iso
 category: Прочее
-order: 5
+order: 6
 permalink:
 post_video: 
 post_photo_path: 
