@@ -70,7 +70,7 @@ time ./script001.sh
 du -h video.mp4
 ```
 
-Результат теста. (video.mkv 1:21 2,5Mb).
+Результат теста. (исходник video.mkv 1:21 2,5Mb).
 
 - HD 1080i 30fps MP4 (H264/AAC) - 7:46 4,2 Mb
 - HD 1080p 60fps MP4 (H264/AAC) faster - 14:22 5,6Mb
