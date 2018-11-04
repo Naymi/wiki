@@ -63,6 +63,6 @@ gpg --keyserver keys.gnupg.net --recv-keys 98F76D97B786E6A3
 gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
 ```
 
-Подробнее о [GnuPG](/wiki/3packages/gnupg/){:target="_blank"}.
+Подробнее о [GnuPG](/wiki/5other/gnupg/){:target="_blank"}.
 
 На этом проверка образа закончена. Я привел несколько способов проверки, можите использовать любой, или все сразу.
