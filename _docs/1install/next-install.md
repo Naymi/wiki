@@ -34,12 +34,13 @@ edit: true
 
 #### Обновить ключи.
 ```bash
-sudo pacman -S geoip-database
-```
-
-```bash
 sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys && sudo pacman -Syy
 ```
+Если ошибка.
+```bash
+sudo pacman -S geoip-database
+```
+И повторить первую команду.
 
 #### Оптимизирование зеркал **Reflector**.
 
