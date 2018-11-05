@@ -10,6 +10,8 @@ permalink: /changelog/
 > Последние и наиболее актуальные версии представлены на странице загрузки <a target="_blank" href="https://ctlos.github.io/get">ctlos.github.io/get</a>. [![GitHub All Releases](https://img.shields.io/github/downloads/ctlos/ctlosiso/total.svg)](https://ctlos.github.io/get)
 {: .warning}
 
+> Свяжитесь с нами, если у Вас есть предложения, или пожелания [ctlos.github.io/contact](https://ctlos.github.io/contact).
+
 <div class="changelog">
 	{% for change in site.posts %}
 		<div class="changelog-item">
