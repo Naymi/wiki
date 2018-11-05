@@ -118,3 +118,144 @@ reeboot
 ```
 
 ---
+
+## Снапшот на другой раздел/диск.
+
+Монтируем основной раздел.
+```bash
+mkdir /mnt/arch
+mount /dev/sda6 /mnt/arch
+```
+
+Монтируем раздел/диск для сброса снапшота.
+```bash
+mkdir /mnt/other
+mount /dev/sdb1 /mnt/other
+```
+
+Создаем снапшоты.
+```bash
+btrfs subvolume snapshot -r /mnt/arch/@ /mnt/arch/@_BACKUP
+btrfs subvolume snapshot -r /mnt/arch/@home /mnt/arch/@home_BACKUP
+```
+
+Сбрасываем все из кэша на диск.
+```bash
+sync
+```
+
+Просмотрим листинг.
+```bash
+btrfs subvolume list /mnt/arch
+```
+
+Переносим снапшоты.
+```bash
+btrfs send /mnt/arch/@_BACKUP | btrfs receive /mnt/other/
+btrfs send /mnt/arch/@home_BACKUP | btrfs receive /mnt/other/
+```
+
+Просмотрим листинг.
+```bash
+btrfs subvolume list /mnt/other
+```
+
+Удаляем, если нужно.
+```bash
+btrfs subvolume delete /mnt/arch/@_BACKUP
+btrfs subvolume delete /mnt/arch/@home_BACKUP
+```
+
+Отмонтируем.
+```bash
+umount /mnt/arch
+umount /mnt/other
+```
+
+Восстановление в обратном порядке с live-usb, или с другой системы. Монтируем раздел для восстановления поврежденный и раздел с backup.
+```bash
+mkdir /mnt/backup
+mount /dev/sdb1 /mnt
+mount /dev/sda6 /mnt/backup
+```
+
+Просмотрим листинг.
+```bash
+btrfs subvolume list /mnt/backup
+```
+
+Переносим снапшоты.
+```bash
+btrfs send /mnt/backup/@_BACKUP | btrfs receive /mnt/
+btrfs send /mnt/backup/@home_BACKUP | btrfs receive /mnt/
+```
+
+Просмотрим листинг.
+```bash
+btrfs subvolume list /mnt
+```
+
+Переименуем.
+```bash
+mv /mnt/@_BACKUP /mnt/@
+mv /mnt/@home_BACKUP /mnt/@home
+```
+
+Отмонтируем.
+```bash
+umount /mnt/backup
+umount /mnt
+rmdir /mnt/backup
+```
+
+Монтируем файловую систему.
+```bash
+mount -o subvol=@,compress=lzo,relatime,space_cache,autodefrag /dev/sdb1 /mnt
+ls /mnt
+mkdir /mnt/home
+mount -o subvol=@home,compress=lzo,relatime,space_cache,autodefrag /dev/sdb1 /mnt/home
+```
+
+Если boot раздел отдеольно, то нужно его тоже смотнтироват в /mnt/boot  + все другие subvolume.
+```bash
+mount --bind /dev /mnt/dev
+mount --bind /proc /mnt/proc
+mount -t sysfs none /mnt/sys
+
+swapon /dev/sdb2
+```
+
+Редактируем FSTAB, или запускаем genfstab.
+```bash
+rm /mnt/etc/fstab
+genfstab -pU /mnt > /mnt/etc/fstab
+```
+
+Переходим в нашу новую систему.
+```bash
+arch-chroot /mnt
+```
+Или.
+```bash
+arch-chroot /mnt /bin/zsh
+```
+
+Перегенерироваь.
+```bash
+mkinitcpio -p linux
+```
+
+Установить загрузчик GRUB2 и сконфигурировать его.
+```bash
+grub-install /dev/sdХ
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+`exit` или "Ctrl + D" выйти из chroot.
+
+Теперь  нужно все размонтировать.
+```bash
+umount /mnt/home
+umount /mnt
+reeboot
+```
