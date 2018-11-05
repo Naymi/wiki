@@ -33,6 +33,9 @@ edit: true
 Слева. Связка ключей - Правый клик - Изменить пароль - Создаете пустой пароль.
 
 #### Обновить ключи.
+```bash
+sudo pacman -S geoip-database
+```
 
 ```bash
 sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys && sudo pacman -Syy

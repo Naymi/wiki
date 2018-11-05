@@ -20,11 +20,19 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ---
 
-### Убиваем тиринг на свободных дровах nvidia (nouveau).
-
-Как установить свободные видео драйвера см. [здесь](https://wiki.archlinux.org/index.php/Nouveau){:target="_blank"}.
-
-В **xfce** данную проблему решает compton `pacman -S compton`, с флагами. Добавить в автостарт данную команду.
+### Уменьшение размера журнала логов Systemd.
 ```bash
-compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil
+sudo nano /etc/systemd/journald.conf
+```
+Расскомментировать и изменить строку.
+```bash
+SystemMaxUse=5M
+```
+
+---
+
+### Отключаем переодическое увеличение загрузки из-за man-db.service.
+```bash
+sudo systemctl disable man-db.service
+sudo systemctl disable man-db.timer
 ```

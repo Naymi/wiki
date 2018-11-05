@@ -32,6 +32,16 @@ xdg-mime default org.gnome.Nautilus.desktop inode/directory
 ```bash
 xdg-mime default vlc.desktop video/mp4
 ```
+---
+
+### Убиваем тиринг на свободных дровах nvidia (nouveau).
+
+Как установить свободные видео драйвера см. [здесь](https://wiki.archlinux.org/index.php/Nouveau){:target="_blank"}.
+
+В **xfce** данную проблему решает compton `pacman -S compton`, с флагами. Добавить в автостарт данную команду.
+```bash
+compton -b --paint-on-overlay --unredir-if-possible --backend xr_glx_hybrid --vsync drm --glx-swap-method -1 --glx-no-stencil
+```
 
 ---
 
