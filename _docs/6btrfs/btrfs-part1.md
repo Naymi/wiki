@@ -9,9 +9,9 @@ comments: true
 edit: true
 ---
 
-## Введение в Btrfs
+## Введение в Btrfs.
 
-Установите пакет пользовательских утилит btrfs-progs.
+Установите пакет пользовательских утилит 	btrfs-progs	.
 ```bash
 pacman -S btrfs-progs arch-install-scripts
 ```
@@ -135,7 +135,7 @@ scrub started at Sat Dec 14 06:37:19 2013 and finished after 3242 seconds
 total bytes scrubbed: 222.45GB with 0 errors
 ```
 
-Рекомендуется проводить проверку регулярно (~еженедельно). "Оффлайн"-проверка ФС (на отмонтированном разделе). При отсутствии ошибок утилита возвратит 0.
+Рекомендуется проводить проверку регулярно (~еженедельно). "Оффлайн" - проверка ФС (на отмонтированном разделе). При отсутствии ошибок утилита возвратит 0.
 ```bash
 btrfs check /dev/sda
 ```
@@ -299,7 +299,7 @@ pacman-key --init
 pacman-key --populate archlinux
 pacman -Syy
 
-Установка boot loader'а.
+Установка boot loaderа.
 ```bash
 grub-install /dev/sdb
 grub-mkconfig -o /boot/grub/grub.cfg
