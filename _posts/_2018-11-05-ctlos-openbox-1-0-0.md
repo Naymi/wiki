@@ -27,4 +27,4 @@ type: major
 - klavaro
 - yay
 
-Полный список пакетов: [packages.both](https://github.com/ctlos/ctlosiso/blob/574a073c5a64932db1e4c669e9964ce8b2a30e10/packages.both){:target="_blank"}.
+Полный список пакетов: [packages.both](https://github.com/ctlos/ctlosiso/blob/5e7096b855f66a0201043ad9171a3b5530d657c5/packages.both){:target="_blank"}.
