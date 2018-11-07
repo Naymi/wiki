@@ -1,5 +1,5 @@
 ---
-title: Ctlos Linux Openbox v1.0.0
+title: Релиз Ctlos Linux Openbox v1.0.0
 type: major
 ---
 
@@ -23,8 +23,9 @@ type: major
 
 - chromium
 - gimp
-- sublime-text-dev
 - klavaro
+- sublime-text-dev
+- transmission-gtk
 - yay
 
 Полный список пакетов: [packages.both](https://github.com/ctlos/ctlosiso/blob/5e7096b855f66a0201043ad9171a3b5530d657c5/packages.both){:target="_blank"}.
