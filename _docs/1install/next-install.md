@@ -45,7 +45,7 @@ sudo pacman -S geoip-database
 #### Оптимизирование зеркал **Reflector**.
 
 В Ctlos установлен скрипт `~/.bin/mirrors`  
-Отредактируйте его под свою страну, а затем запустите от обычного пользователя `mirrors`.
+Отредактируйте его под ближайшие страны, а затем запустите от обычного пользователя `mirrors`.
 
 Либо напрямую командой.
 ```bash
@@ -54,7 +54,7 @@ sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p 
 
 Или по одной.
 ```bash
-sudo reflector -c 'Russia' -f 6 -l 6 -p http -n 12 --verbose --save /etc/pacman.d/mirrorlist
+sudo reflector -c 'Russia' -f 20 -l 20 -p http -n 20 --verbose --save /etc/pacman.d/mirrorlist --sort rate
 ```
 
 Проверим.
