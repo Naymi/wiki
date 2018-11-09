@@ -70,7 +70,7 @@ yay -S --mflags "--nocheck --skippgpcheck" libc++
 Второй способ, [Flatpak](/wiki/1install/pkg-manager/#еще-один-из-немногих-иенеджеров-flatpak){:target="_blank"}.
 
 ```bash
-flatpak install --user https://flathub.org/repo/appstream/com.discordapp.Discord.flatpakref
+flatpak install --user flathub com.discordapp.Discord
 ```
 
 ---
