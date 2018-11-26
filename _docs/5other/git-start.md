@@ -42,7 +42,19 @@ git commit -m "test"
 
 Создание репозитория на github.com.
 ```bash
-git remote add ctlosiso https://github.com/ctlos/ctlosiso
+git remote add origin https://github.com/ctlos/ctlosiso
+git remote add origin git@github.com:ctlos/ctlosiso.git
+```
+
+Отменить регистрацию удаленного репозитария.
+```bash
+git remote rm origin
+```
+
+Отправка на github.com.
+```bash
+git push -u origin master
+git push --set-upstream origin master
 ```
 
 Клонирование.
