@@ -34,6 +34,26 @@ xdg-mime default vlc.desktop video/mp4
 ```
 ---
 
+### Проблема с win кодировкой.
+
+Решение: установить `gedit`, выполнить в терминале команду ниже, радуемся.
+
+```bash
+gsettings set org.gnome.gedit.preferences.encodings candidate-encodings "['UTF-8', 'WINDOWS-1251', 'KOI8-R', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+```
+---
+
+### Расширяем контекстное меню thunar.
+
+Добавляем дополнительные пункты для создания файлов.
+
+```bash
+XDG_TEMPLATES_DIR=$(xdg-user-dir TEMPLATES)
+cd "$XDG_TEMPLATES_DIR"
+touch 'New Text File.txt' && touch 'New Word File.doc' && touch 'New Excel Spreadsheet.xls'
+```
+---
+
 ### Убиваем тиринг на свободных дровах nvidia (nouveau).
 
 Как установить свободные видео драйвера см. [здесь](https://wiki.archlinux.org/index.php/Nouveau){:target="_blank"}.
