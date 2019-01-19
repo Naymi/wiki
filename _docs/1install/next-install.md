@@ -84,7 +84,7 @@ Include = /etc/pacman.d/mirrorlist
 
 `alias y="yay -S"` установка.  
 `alias yn="yay -S --noconfirm"` установка без подтверждения.  
-`alias ygpg="yay -S --m-arg "--skippgpcheck" --noconfirm"` установка и игнорирование проверки gpg ключа.  
+`alias ygpg="--mflags '--nocheck --skippgpcheck --noconfirm'"` установка и игнорирование проверки gpg ключа.  
 `alias ys="yay"` поиск с дальнейшим выбором по цифре.  
 `alias ysn="yay --noconfirm"` поиск с дальнейшим выбором по цифре, без подтверждения.  
 `alias yc="yay -Sc"` частичная очистка кэша.  
