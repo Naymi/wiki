@@ -24,7 +24,7 @@ edit: true
 Монтируем раздел для резервной копии, предварительно создайте каталог.
 `mount /dev/sdb1 /dump`
 
-Копируем `/` в `/dump` с исключением, но с созданием нужных дерикторий.
+Копируем `/` в `/dump` с исключением, но с созданием нужных директорий.
 ```bash
 rsync -aAXv --delete --delete-excluded --exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found","/var/lib/pacman/sync/*","/var/cache/*","/var/tmp/*","/boot/*","/home/*"} /* /dump/
 ```
