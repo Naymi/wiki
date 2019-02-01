@@ -67,45 +67,34 @@ gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
 </div> -->
 
 Выбор языка интерфейса.
-
 ![Ctlos step 1](/wiki/images/1install/install-ctlos/1.png)
 
 Выбор местоположения.
-
 ![Ctlos step 2](/wiki/images/1install/install-ctlos/2.png)
 
 **Внимание!** Во избежания дальнейших проблем, на этапе установки выбирайте раскладку **English (US) — По умолчанию**. После установки будет 2 раскладки **ru,us** по **alt+shift**.
-
 ![Ctlos step 3](/wiki/images/1install/install-ctlos/3.png)
 
 Разметка диска.
-
 ![Ctlos step 4](/wiki/images/1install/install-ctlos/4.png)
 
 Создание пользователя.
-
 ![Ctlos step 5](/wiki/images/1install/install-ctlos/5.png)
 
 Проверяем данные, можно вернуться и исправить, если что-то не так.
-
 ![Ctlos step 6](/wiki/images/1install/install-ctlos/6.png)
 
 Процесс установки.
-
 ![Ctlos step 7](/wiki/images/1install/install-ctlos/7.png)
 
 Готово!
-
 ![Ctlos step 8](/wiki/images/1install/install-ctlos/8.png)
 
 Выбор в меню Grub.
-
 ![Ctlos step 9](/wiki/images/1install/install-ctlos/9.png)
 
 Менеджер входа(LightDm), в правом верхнем углу можно выбрать сессию, если присутствуют другие Окружения(DE), или Оконные менеджеры(WM). На данном скрине Xfce, она единственная и по умолчанию ничего можно не выбирать.
-
 ![Ctlos step 10](/wiki/images/1install/install-ctlos/10.png)
 
 Вот и все! Спасибо за скрины пользователю **breadandbutter** с nnm-club.me
-
 ![Ctlos step 11](/wiki/images/1install/install-ctlos/11.png)
