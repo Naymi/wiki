@@ -1,7 +1,7 @@
 ---
 title: Добро пожаловать
 post_video: 
-post_photo_path: https://thumbs.gfycat.com/IdealGrippingCatbird-size_restricted.gif
+post_photo_path: https://thumbs.gfycat.com/BetterCharmingFattaileddunnart-small.gif
 comments: false
 edit: false
 ---
