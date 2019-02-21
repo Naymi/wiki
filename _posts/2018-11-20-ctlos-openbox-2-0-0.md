@@ -18,6 +18,6 @@ type: major
 
 **Исправлено (Fixed):**
 
-- Не правильное открытие файлового менеджера в меню openbox
+- Неправильное открытие файлового менеджера в меню openbox
 
 Полный список пакетов: [packages.both](https://github.com/ctlos/ctlosiso/blob/de0430a199bd55ca52de03ee2d418bb23deeec80/packages.both){:target="_blank"}.
