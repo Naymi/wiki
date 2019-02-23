@@ -3,7 +3,7 @@ title: Лог Изменений
 permalink: /changelog/
 ---
 
-Подпишись на <a href="{{ site.baseurl }}/feed.xml">RSS</a>, или на группу в VK <a target="_blank" href="https://vk.com/ctlos">vk.com/ctlos</a>, чтобы быть в курсе последних обновлений.
+Подпишись на <a href="{{ site.baseurl }}/feed.xml">RSS</a>, или на группу в VK <a target="_blank" href="https://vk.com/ctlos">vk.com/ctlos</a>, чтобы быть в курсе последних обновлений. Вступай в telegram чат <a target="_blank" href="https://t.me/ctlos">t.me/ctlos</a>.
 
 Прошлые версии доступны для скачивания на данной странице <a target="_blank" href="https://github.com/ctlos/ctlosiso/releases">github.com releases</a>.
 
