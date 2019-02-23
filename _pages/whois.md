@@ -12,12 +12,14 @@ Ctlos Linux — базируется на Arch Linux, iso образ собр�
 
 Открытый исходный код: [github.com/ctlos](https://github.com/ctlos){:target="_blank"}.
 
-Команда: [ctlos.github.io/dev](https://ctlos.github.io/dev){:target="_blank"}.
-
 Загрузить и опробовать в действии: [ctlos.github.io/get](https://ctlos.github.io/get).
 [![GitHub All Releases](https://img.shields.io/github/downloads/ctlos/ctlosiso/total.svg)](https://ctlos.github.io/get)
 
 Последний актуальный релиз и обновления [Ctlos Changelog](https://ctlos.github.io/wiki/changelog).
+
+Команда: [ctlos.github.io/dev](https://ctlos.github.io/dev).
+
+Доска Почета: [ctlos.github.io/dev](https://ctlos.github.io/dev).
 
 > Мы не утверждаем, что Ctlos лучше или хуже. Собиралась данная система изначально исключительно для себя. Стандартное ПО, как и в большинстве дистрибутивов Linux, разработкой собственного ПО мы не занимаемся.
 
