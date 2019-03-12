@@ -36,6 +36,8 @@ sudo dd bs=4M if=ctlos.iso of=/dev/sdX status=progress && sync
 
 Rufus: [https://rufus.akeo.ie/](https://rufus.akeo.ie/ "https://rufus.akeo.ie/"){:target="_blank"}
 
+> Внимание в Rufus выбирайте режим записи iso в **dd**.
+
 ## Проверка ISO образа.
 
 ### Проверка контрольных сумм в Windows.
