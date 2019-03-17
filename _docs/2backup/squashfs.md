@@ -56,12 +56,12 @@ mount /dev/sda7 /mnt/home
 
 Распаковываем сжатый образ.
 ```bash
-unsquashfs -d /mnt/root -f ~/backup/myarch.sfs
+unsquashfs -d /mnt -f ~/backup/myarch.sfs
 ```
 
 Проверим и отмантируем раздел.
 ```bash
-ls /mnt/root
+ls /mnt
 umount /dev/sda2
 umount /dev/sda7
 umount /dev/sda5
