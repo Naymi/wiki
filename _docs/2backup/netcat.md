@@ -138,3 +138,11 @@ rsync -auvz -P ~/dir/* rsync://187.187.55.18/dump
 ```bash
 rsync -auvz -P rsync://187.187.55.18/dump ~/.dump/
 ```
+
+Ssh.
+
+```bash
+rsync -auvz -P -e "ssh -p 2222" name@187.187.55.18:/path/to/copy /local/path
+
+rsync -auvz -P -e "ssh -p 2222" /local/path name@187.187.55.18:/path/to/copy
+```
