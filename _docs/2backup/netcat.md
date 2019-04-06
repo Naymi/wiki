@@ -56,7 +56,7 @@ scp -P 2222 file.txt file2.txt name@187.187.55.18:/home/user/dir
 scp -P 2222 -r dir1 name@187.187.55.18:/home/user/dir2
 ```
 
-### С удаленнки на локалку.
+### С удаленки на локалку.
 
 ```bash
 scp -P 2222 name@187.187.55.18:file.txt /home/user/dir
@@ -66,7 +66,7 @@ scp -P 2222 name@187.187.55.18:~/\{file1,file2,file3\} .
 scp -P 2222 -r name@187.187.55.18:/home/dir/ /home/user/dir/
 ```
 
-### С одного сенрвака на другой.
+### С одного сервака на другой.
 
 ```bash
 scp name@187.187.55.18:/dir/file.txt name@198.198.188.18:/name/dir/
