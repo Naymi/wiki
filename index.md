@@ -1,11 +1,11 @@
 ---
 title: Добро пожаловать
 post_video: 
-post_photo_path: https://thumbs.gfycat.com/RespectfulObedientGarpike-size_restricted.gif
+post_photo_path: https://thumbs.gfycat.com/ArcticBadJaguarundi-size_restricted.gif
 comments: false
 edit: false
----
 
+---
 > Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
 
 #### Кратко о Ctlos Linux.
