@@ -5,6 +5,14 @@ fields:
 - type: text
   name: title
   label: title
+  description: Заголовок
 - type: text
   name: type
   label: type
+  description: 'Klass_izmeneniya: patch, minor, major'
+  default: minor
+- type: list
+  name: dobavleno
+  label: Добавлено
+  default:
+  - ''
