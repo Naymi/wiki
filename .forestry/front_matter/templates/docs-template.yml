@@ -1,0 +1,28 @@
+---
+label: Docs template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: category
+  label: category
+- type: number
+  name: order
+  label: order
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: post_video
+  label: post_video
+- type: file
+  name: post_photo_path
+  label: post_photo_path
+- type: boolean
+  name: comments
+  label: comments
+- type: boolean
+  name: edit
+  label: edit
