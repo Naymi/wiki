@@ -7,7 +7,7 @@ github_repo_url: https://github.com/ctlos/wiki
 google_analytics: UA-90439782-2
 ya_metrika: 47541358
 google_verification: 6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM
-show_full_navigation: true
+show_full_navigation: false
 disqus_shortname: ctlos
 
 # jekyll-seo-tag
