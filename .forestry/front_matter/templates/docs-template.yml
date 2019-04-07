@@ -5,24 +5,32 @@ fields:
 - type: text
   name: title
   label: title
+  default: Заголовок документа
 - type: text
   name: category
   label: category
+  default: Прочее
+  description: Категория
 - type: number
   name: order
   label: order
-- type: text
-  name: permalink
-  label: permalink
+  default: '1'
+  description: Сортировка в категории
 - type: text
   name: post_video
   label: post_video
+  default: T8nq4yGP9EU
 - type: file
   name: post_photo_path
   label: post_photo_path
+  description: "/wiki/images/1install/install-ctlos/file-browser-add-menu.png"
 - type: boolean
   name: comments
   label: comments
+  description: Включение комментов
+  default: true
 - type: boolean
   name: edit
   label: edit
+  description: Включение ссылки на редактирование
+  default: true
