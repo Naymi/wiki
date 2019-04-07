@@ -114,6 +114,8 @@ gpg -o secret.tar --decrypt secret.tar.asc
 Шифровать каталог.
 ```bash
 gpgtar --encrypt --output secret.tar -r A24F76A41D635F7A dir/
+
+gpgtar -c -o secret.tar dir/
 ```
 
 Просмотр.
