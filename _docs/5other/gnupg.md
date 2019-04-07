@@ -25,25 +25,36 @@ gpg --list-secret-keys
 gpg --list-public-keys
 ```
 
+Id ключей.
+```bash
+gpg --list-public-keys --keyid-format LONG
+gpg --list-secret-keys --keyid-format LONG
+```
+
 Удалить ключ.
 ```bash
-gpg --delete-secret-keys 812549
-gpg --delete-keys 812259
+gpg --delete-secret-keys A24F76A41D635F7A
+gpg --delete-keys A24F76A41D635F7A
 ```
 
 Редактировать ключ.
 ```bash
-gpg --edit-key mail@example.com
+gpg --expert --edit-key mail@example.com
 ```
 
 Экспорт открытого ключа в текстовом виде.
 ```bash
-gpg --armor --output pubkey.txt --export 812549
+gpg --armor --output pubkey.txt --export A24F76A41D635F7A
 ```
 
 Экспорт закрытого ключа в текстовом виде.
 ```bash
-gpg --armor --output privkey.txt --export-secret-keys 812549
+gpg --armor --output privkey.txt --export-secret-keys A24F76A41D635F7A
+```
+
+Экспорт Certificate.
+```bash
+gpg -a --gen-revoke A24F76A41D635F7A > rev_cert.gpg
 ```
 
 Экспорт открытого ключа на keyserver.
@@ -57,7 +68,7 @@ gpg --import key.txt
 ```
 Или по номеру.
 ```bash
-gpg --recv keys 98F76D97B786E6A3
+gpg --recv-keys 98F76D97B786E6A3
 ```
 
 Импорт закрытого ключа.
@@ -93,5 +104,24 @@ gpg --encrypt-files -r A24F76A41D635F7A secret.tar
 
 Расшифровать файл.
 ```bash
-gpg --decrypt-files secret.tar.gpg
+gpg -d secret.tar.asc
+
+gpg -d secret.tar.asc > secret.tar
+
+gpg -o secret.tar --decrypt secret.tar.asc
+```
+
+Шифровать каталог.
+```bash
+gpgtar --encrypt --output secret.tar -r A24F76A41D635F7A dir/
+```
+
+Просмотр.
+```bash
+gpgtar -t secret.tar
+```
+
+Расшифровать каталог.
+```bash
+gpgtar -d secret.tar
 ```
