@@ -1,7 +1,7 @@
 ---
 title: Добро пожаловать
 post_video: 
-post_photo_path: https://thumbs.gfycat.com/ArcticBadJaguarundi-size_restricted.gif
+post_photo_path: https://thumbs.gfycat.com/PessimisticAmazingGrassspider-size_restricted.gif
 comments: false
 edit: false
 
