@@ -1,31 +1,31 @@
 ---
-title: Добро пожаловать
+title: Добро пожаловать!
 post_video: 
 post_photo_path: https://thumbs.gfycat.com/PessimisticAmazingGrassspider-size_restricted.gif
 comments: false
 edit: false
 
 ---
-> Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
+> Благодарим Вас за использование Ctlos Linux, надеемся Вас все устроит.
 
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/ItfDue_rZyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-#### Кратко о Ctlos Linux.
-[ctlos.github.io/wiki/whois](https://ctlos.github.io/wiki/whois)
+#### Что такое Ctlos Linux?
+[Узнать подробнее →](https://ctlos.github.io/wiki/whois)
 
-#### Cтраница загрузки.
+#### Загрузить дистрибутив
 [![GitHub All Releases](https://img.shields.io/github/downloads/ctlos/ctlosiso/total.svg)](https://ctlos.github.io/get)
 
-#### Изменения и обновления, есть подписка по rss.
-[Ctlos Changelog](https://ctlos.github.io/wiki/changelog)
+#### История изменений
+[Узнать, что изменилось →](https://ctlos.github.io/wiki/changelog)
 
-#### Подпишитесь на youtube канал автора.
-[youtube.com](https://youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1){:target="_blank"}
+#### Подпишитесь на YouTube-канал автора
+[YouTube](https://youtube.com/channel/UCPCp_ZnMKEwYdnA_YfOZrZg?sub_confirmation=1){:target="_blank"}
 
-#### В случае возникновения вопросов, предложений, задать их можно здесь.
-[ctlos.github.io/contact](https://ctlos.github.io/contact)
+#### У Вас есть вопросы?
+[Узнайте как можно их задать →](https://ctlos.github.io/contact)
 
-#### Поддержите нас $.
-[Donation](https://ctlos.github.io/donat)
+#### Поддержите нас материально
+[Поддержать →](https://ctlos.github.io/donat)
