@@ -8,6 +8,10 @@ edit: false
 ---
 > Благодарю за использование Ctlos Linux, надеюсь Вас все устроит.
 
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe src="https://www.youtube.com/embed/ItfDue_rZyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### Кратко о Ctlos Linux.
 [ctlos.github.io/wiki/whois](https://ctlos.github.io/wiki/whois)
 
