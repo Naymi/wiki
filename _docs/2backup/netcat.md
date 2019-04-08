@@ -3,7 +3,7 @@ title: Netcat, ssh и rsync
 category: Резервное копирование
 order: 3
 permalink:
-post_video: 
+post_video: eyULZXXs_Wk
 post_photo_path: 
 comments: true
 edit: true
