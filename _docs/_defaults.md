@@ -23,5 +23,4 @@ edit: true
 
 > blabla
 {: .warning}
-
 —
