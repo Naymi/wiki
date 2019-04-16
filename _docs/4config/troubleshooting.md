@@ -67,6 +67,18 @@ gsettings set org.gnome.gedit.preferences.encodings candidate-encodings "['UTF-8
 ```
 ---
 
+### Проблема с windows time (сброс системного времени)
+
+Решение: Создать и применить рег.файл с таким содержанием:
+
+```bash
+Windows Registry Editor Version 5.00 
+ 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation] 
+"RealTimeIsUniversal"=dword:00000001
+```
+---
+
 ### Расширяем контекстное меню thunar.
 
 Добавляем дополнительные пункты для создания файлов.
