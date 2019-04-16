@@ -36,3 +36,16 @@ SystemMaxUse=5M
 sudo systemctl disable man-db.service
 sudo systemctl disable man-db.timer
 ```
+---
+
+### Удаление особых скриптов live-среды.
+Существуют некоторые скрипты, установленные скриптами archiso в live-системе, которые не нужны для новой системы:
+```bash
+# rm /etc/systemd/system/getty@tty1.service.d/autologin.conf
+# rm /root/{.automated_script.sh,.zlogin}
+# rm /etc/mkinitcpio-archiso.conf
+# rm -r /etc/initcpio
+# systemctl disable pacman-init.service
+```
+Подробнее: https://is.gd/2r2o2U
+---
