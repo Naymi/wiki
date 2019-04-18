@@ -55,4 +55,4 @@ sudo systemctl disable man-db.timer
 # systemctl disable pacman-init.service
 ```
 
-## Подробнее: [https://is.gd/2r2o2U]()
+#### Подробнее: [https://is.gd/2r2o2U](https://is.gd/2r2o2U "https://is.gd/2r2o2U")
