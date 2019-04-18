@@ -48,11 +48,13 @@ sudo systemctl disable man-db.timer
 Существуют некоторые скрипты, установленные скриптами archiso в live-системе, которые не нужны для новой системы:
 
 ```bash
-# rm /etc/systemd/system/getty@tty1.service.d/autologin.conf
-# rm /root/{.automated_script.sh,.zlogin}
-# rm /etc/mkinitcpio-archiso.conf
-# rm -r /etc/initcpio
-# systemctl disable pacman-init.service
+rm /etc/systemd/system/getty@tty1.service.d/autologin.conf
+rm /root/{.automated_script.sh,.zlogin}
+rm /etc/mkinitcpio-archiso.conf
+rm -r /etc/initcpio
+systemctl disable pacman-init.service
 ```
 
-#### Подробнее: [https://is.gd/2r2o2U](https://is.gd/2r2o2U "https://is.gd/2r2o2U")
+#### Подробнее: [https://wiki.archlinux.org/index.php/Offline_installation_(%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9)](Offline installation (Русский)){:target="_blank"}
+
+***
