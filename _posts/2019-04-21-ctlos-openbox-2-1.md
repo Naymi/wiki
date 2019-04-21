@@ -9,6 +9,7 @@ type: minor
 
 - sddm
 - sddm-config-editor-git
+- grub-customizer
 
 **Удалено (removed):**
 
