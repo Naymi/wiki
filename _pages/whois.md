@@ -17,9 +17,11 @@ Ctlos Linux — базируется на Arch Linux, iso образ собр�
 
 Последний актуальный релиз и обновления [Ctlos Changelog](https://ctlos.github.io/wiki/changelog).
 
-Команда: [ctlos.github.io/dev](https://ctlos.github.io/dev).
+Команда: [ctlos/people](https://github.com/orgs/ctlos/people){:target="_blank"}.
 
-Доска Почета: [ctlos.github.io/thanks](https://ctlos.github.io/thanks).
+<!-- Команда: [ctlos.github.io/dev](https://ctlos.github.io/dev). -->
+
+<!-- Доска Почета: [ctlos.github.io/thanks](https://ctlos.github.io/thanks). -->
 
 > Мы не утверждаем, что Ctlos лучше или хуже. Собиралась данная система изначально исключительно для себя. Стандартное ПО, как и в большинстве дистрибутивов Linux, разработкой собственного ПО мы не занимаемся.
 
@@ -28,7 +30,7 @@ Ctlos Linux — базируется на Arch Linux, iso образ собр�
 ### Статьи о Ctlos:
 
 - [Русский Arch Linux](https://telegra.ph/Russkij-Arch-Linux-01-18){:target="_blank"}
-- [Краткий обзор установочного livecd Ctlos Xfce v1.2.0](http://auriz.ru/blogs/kratkii-obzor-ustanovochnogo-livecd-ctlos-xfce-v1-2-0)
+- [Краткий обзор установочного livecd Ctlos Xfce v1.2.0](http://auriz.ru/blogs/kratkii-obzor-ustanovochnogo-livecd-ctlos-xfce-v1-2-0){:target="_blank"}
 
 ### В чем особенность Ctlos?
 
