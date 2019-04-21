@@ -28,6 +28,7 @@ Ctlos Linux — базируется на Arch Linux, iso образ собр�
 ### Статьи о Ctlos:
 
 - [Русский Arch Linux](https://telegra.ph/Russkij-Arch-Linux-01-18){:target="_blank"}
+- [Краткий обзор установочного livecd Ctlos Xfce v1.2.0](http://auriz.ru/blogs/kratkii-obzor-ustanovochnogo-livecd-ctlos-xfce-v1-2-0)
 
 ### В чем особенность Ctlos?
 
