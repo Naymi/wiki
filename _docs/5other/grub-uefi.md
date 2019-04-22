@@ -49,7 +49,7 @@ arch-chroot /mnt
 
 Установим Grub.
 ```bash
-pacman -S grub efibootmgr
+pacman -S grub efibootmgr dosfstools os-prober
 ```
 
 Установим grub в `/boot/efi`.
