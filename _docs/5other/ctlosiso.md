@@ -160,11 +160,15 @@ sudo rm -v work/build.make_*
 Список установленных пакетов в системе. Подробно.
 ```bash
 LANG=C pacman -Sl | awk '/\[installed\]$/ {print $1 "/" $2 "-" $3}' > ~/pkglist.txt
+
+LANG=C pacman -Sl | awk '/\[installed\]$/ {print $2}' > ~/.pkglist.txt
 ```
 
 Кратко.
 ```bash
 pacman -Qqe > ~/pkglist.txt
+
+pacman -Qqm > ~/aurlist.txt
 ```
 
 <!-- <div class="embed-responsive embed-responsive-16by9">
