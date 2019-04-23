@@ -159,7 +159,7 @@ pacman -Qqe > ~/pkglist.txt
 
 ## Archiso video
 
-<div class="embed-responsive embed-responsive-16by9">
+<!-- <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/XNpAXthDbrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -173,7 +173,7 @@ pacman -Qqe > ~/pkglist.txt
 
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/b-_dZiyUT8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+</div> -->
 
 <div id="vk_post_-154637969_171"></div>
 <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
