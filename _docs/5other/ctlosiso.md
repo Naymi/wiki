@@ -157,6 +157,8 @@ LANG=C pacman -Sl | awk '/\[installed\]$/ {print $1 "/" $2 "-" $3}' > ~/pkglist.
 pacman -Qqe > ~/pkglist.txt
 ```
 
+## Archiso video
+
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/XNpAXthDbrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
