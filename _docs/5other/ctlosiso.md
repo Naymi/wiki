@@ -9,6 +9,16 @@ comments: true
 edit: true
 ---
 
+## Archiso video
+
+<div id="vk_post_-154637969_171"></div>
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+<script type="text/javascript">
+  (function() {
+    VK.Widgets.Post("vk_post_-154637969_171", -154637969, 171, 'N8jtF6hlg7AnWjbZNKaD2lfnP1p9');
+  }());
+</script>
+
 Создание iso образа Ctlos Linux для 64-bit(x86_64).
 
 Установить пакеты для сборки.
@@ -157,8 +167,6 @@ LANG=C pacman -Sl | awk '/\[installed\]$/ {print $1 "/" $2 "-" $3}' > ~/pkglist.
 pacman -Qqe > ~/pkglist.txt
 ```
 
-## Archiso video
-
 <!-- <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/XNpAXthDbrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -174,11 +182,3 @@ pacman -Qqe > ~/pkglist.txt
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe src="https://www.youtube.com/embed/b-_dZiyUT8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div> -->
-
-<div id="vk_post_-154637969_171"></div>
-<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
-<script type="text/javascript">
-  (function() {
-    VK.Widgets.Post("vk_post_-154637969_171", -154637969, 171, 'N8jtF6hlg7AnWjbZNKaD2lfnP1p9');
-  }());
-</script>
