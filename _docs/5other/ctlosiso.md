@@ -156,3 +156,19 @@ LANG=C pacman -Sl | awk '/\[installed\]$/ {print $1 "/" $2 "-" $3}' > ~/pkglist.
 ```bash
 pacman -Qqe > ~/pkglist.txt
 ```
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe src="https://www.youtube.com/embed/XNpAXthDbrI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe src="https://www.youtube.com/embed/SKMQKufbo4M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe src="https://www.youtube.com/embed/ljRDkQVOlqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe src="https://www.youtube.com/embed/b-_dZiyUT8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
