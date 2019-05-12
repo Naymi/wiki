@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i%7CRoboto:400,400i,700,700i&amp;subset=cyrillic">
-		<link rel="stylesheet" href="https://use.fontawesome.com/2a93ab338e.css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
 		<link rel="shortcut icon" href="{{ site.url }}/assets/img/favicon/favicon.ico">
@@ -112,6 +111,7 @@
 			{% include js/menu.js %}
 			{% include js/autofocus.js %}
 		</script>
+		<script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/jquery.scroolly.js"></script>
@@ -123,6 +123,20 @@
 		{% endif %}
 
 		<!-- <script id="chatBroEmbedCode">function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}ChatbroLoader({encodedChatId: '52xuJ'});</script> -->
+
+		<!-- Yeps {literal} -->
+		<script>
+			(function (y, e, p) {
+				e.YepsID = 'oXXr9AhgfhxXgDypD';
+				var s = y.createElement('script');
+				e[p] = e[p] || function() {
+					(e[p].q = e[p].q || []).push(arguments);
+				};
+				s.async = true;
+				s.src = 'https://widget.yeps.io/yeps.js';
+				if (y.head) y.head.appendChild(s);
+			})(document, window, 'Yeps');
+		</script>
 
 	</body>
 </html>
