@@ -25,7 +25,7 @@ $content-background-color: #282c37;
 $brand-colour: $blue;
 $brand-colour-light: mix($brand-colour, $content-background-color, 10%);
 
-$warning-colour: #FDBC40;
+$warning-colour: $magenta;
 $warning-colour-light: mix($warning-colour, $content-background-color, 10%);
 
 $nav-header-background-color: $brand-colour;
