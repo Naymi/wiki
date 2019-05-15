@@ -185,7 +185,7 @@ header {
 	h2 {
 		font-size: 2rem;
 		margin-left: -1px;
-		color: #888;
+		color: $content-color;
 		letter-spacing: 0;
 	}
 
@@ -404,7 +404,7 @@ h4 svg {
 	}
 
 	.date {
-		color: #888;
+		color: $content-color;
 		font-style: italic;
 	}
 
@@ -512,7 +512,7 @@ img {
 	opacity: 0;
 	transition: opacity ease 0.2s, color ease 0.2s;
 	text-decoration: none;
-	color: #888;
+	color: $content-color;
 	font-size: 0.9em;
 	vertical-align: bottom;
 
