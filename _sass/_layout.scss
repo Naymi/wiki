@@ -360,6 +360,18 @@ h4 svg {
 
 .search-input-container {
 	position: relative;
+	::placeholder {
+		color: $content-color;
+		opacity: 1; /* Firefox */
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: $content-color;
+	}
+
+	::-ms-input-placeholder { /* Microsoft Edge */
+		color: $content-color;
+	}
 }
 
 .search-input-icon {
