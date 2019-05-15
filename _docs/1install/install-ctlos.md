@@ -19,7 +19,7 @@ edit: true
 #### Linux.
 
 Форматирование usb.
-```bash
+```
 sudo mkfs.vfat /dev/sdX -I
 ```
 
