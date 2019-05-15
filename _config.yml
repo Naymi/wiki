@@ -85,10 +85,11 @@ types:
 
 markdown: kramdown
 kramdown:
-  syntax_highlighter: pygments
+  syntax_highlighter: rouge
   syntax_highlighter_opts:
     default_lang: bash
     css_class: 'highlight'
+    gutter_class: 'rouge-gup'
     span:
       line_numbers: false
     block:
