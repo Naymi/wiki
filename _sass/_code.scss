@@ -35,3 +35,16 @@ p > code {
 	padding: 4px 6px;
 	white-space: nowrap;
 }
+
+.highlight {
+	.rouge-table {
+		margin: 0;
+	}
+	tr {
+		border: none;
+	}
+	pre {
+		margin: 0;
+		padding: 0;
+	}
+}
