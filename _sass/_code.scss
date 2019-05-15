@@ -5,8 +5,8 @@ pre, code, tt {
 	border-radius: 2px;
 	line-height: 1.4;
 	font-weight: 400;
-	background-color: #404145;
-	color: #FAFAFA;
+	background-color: $dark;
+	color: $default;
 	border-radius: 2px;
 }
 
@@ -34,4 +34,25 @@ li > code,
 p > code {
 	padding: 4px 6px;
 	white-space: nowrap;
+}
+
+.highlight {
+	margin: 0 0 1.75em 0;
+	.rouge-table {
+		margin: 0;
+	}
+	.rouge-gutter {
+		width: 10px;
+		border-right: 1px solid $content-color;
+	}
+	.rouge-code {
+		padding-left: 20px;
+	}
+	tr {
+		border: none;
+	}
+	pre {
+		margin: 0;
+		padding: 0;
+	}
 }

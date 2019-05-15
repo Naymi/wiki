@@ -1,8 +1,15 @@
 a.logo	{
-	color: $content-background-color;
+	color: $default;
 	text-decoration: none;
 	&:hover {
 		color: $content-background-color;
+	}
+}
+
+.fa_icons {
+	svg {
+		width: 30px !important;
+		height: 30px !important;
 	}
 }
 

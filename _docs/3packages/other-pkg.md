@@ -190,7 +190,7 @@ sudo systemctl enable bluetooth.service
 
 Wps office.
 ```bash
-yay -S wps-office ttf-wps-fonts wps-office-extension-russian-dictionary --noconfirm
+yay -S wps-office ttf-wps-fonts wps-office-mui-ru-ru wps-office-extension-russian-dictionary --noconfirm
 ```
 
 Libre office.

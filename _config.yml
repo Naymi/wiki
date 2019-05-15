@@ -82,3 +82,13 @@ types:
   - major
   - minor
   - patch
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: sh
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true

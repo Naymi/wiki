@@ -26,20 +26,23 @@ edit: true
 
 После запуска браузера **Chromium**, он может потребовать ввести пароль. Игнорируйте (оставьте пустым).  
 Данная проблема возникает, если установлен **gnome-keyring**, он нужен для хранения паролей, например wi-fi.  
-Или установите **seahorse**.  
-`sudo pacman -S seahorse`
+Или установите **seahorse**. `sudo pacman -S seahorse`
 
 Измените в Меню - Инструменты - Пароли и ключи(seahorse).  
 Слева. Связка ключей - Правый клик - Изменить пароль - Создаете пустой пароль.
 
 #### Обновить ключи.
+
 ```bash
 sudo pacman-key --init && sudo pacman-key --populate archlinux && sudo pacman-key --refresh-keys && sudo pacman -Syy
 ```
+
 Если ошибка.
+
 ```bash
 sudo pacman -S geoip-database
 ```
+
 И повторить первую команду.
 
 #### Оптимизирование зеркал **Reflector**.
@@ -48,32 +51,33 @@ sudo pacman -S geoip-database
 Отредактируйте его под ближайшие страны, а затем запустите от обычного пользователя `mirrors`.
 
 Либо напрямую командой.
+
 ```bash
 sudo reflector -c "Russia" -c "Belarus" -c "Ukraine" -c "Poland" -f 20 -l 20 -p https -p http -n 20 --save /etc/pacman.d/mirrorlist --sort rate
 ```
 
 Или по одной.
+
 ```bash
 sudo reflector -c 'Russia' -f 20 -l 20 -p http -n 20 --verbose --save /etc/pacman.d/mirrorlist --sort rate
 ```
 
-Проверим.
-`cat /etc/pacman.d/mirrorlist`
+Проверим. `cat /etc/pacman.d/mirrorlist`
 
 Для поддержки 32-битных библиотек раскомментируйте репозиторий multilib.
+
 `sudo nano /etc/pacman.conf`
 
 Убрать **#**
-```
+
+```sh
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
 
-Синхронизируем.
-`sudo pacman -Sy`
+Синхронизируем. `sudo pacman -Sy`
 
-Обновление всей системы.
-`sudo pacman -Syu`
+Обновление всей системы. `sudo pacman -Syu`
 
 #### Используйте алиасы.
 

@@ -10,9 +10,9 @@ body {
 	max-height: 100%;
 	font-family: "Roboto",Helvetica,Arial,sans-serif;
 	letter-spacing: 0.01rem;
-	font-size: 1.8em;
-	line-height: 1.75em;
-	color: #3A4145;
+	font-size: 1.6em;
+	line-height: 1.8em;
+	color: $content-color;
 	font-weight: 400;
 }
 
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #2E2E2E;
+	color: $default;
 	line-height: 1.15em;
 	margin: 0 0 0.4em 0;
 	font-weight: 400;

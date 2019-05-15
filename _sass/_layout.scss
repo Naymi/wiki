@@ -87,7 +87,7 @@ header {
 	left: 0;
 	right: 0;
 	overflow-x: hidden;
-	z-index: 1;
+	z-index: 10000;
 	background-color: $nav-background-color;
 
 	ul {
@@ -143,7 +143,7 @@ header {
 	}
 
 	@media (min-width: $mobile-break) {
-		background-color: transparent;
+		// background-color: transparent;
 		width: $nav-width;
 		height: 100%;
 		right: auto;
@@ -185,7 +185,7 @@ header {
 	h2 {
 		font-size: 2rem;
 		margin-left: -1px;
-		color: #888;
+		color: $content-color;
 		letter-spacing: 0;
 	}
 
@@ -241,7 +241,7 @@ nav > ul {
 	}
 
 	> a {
-		color: #666;
+		color: $content-color;
 		text-decoration: none;
 		font-size: 1.4rem;
 		padding: $space / 2 0 $space / 2 $space * 2;
@@ -251,7 +251,7 @@ nav > ul {
 	&.current > a,
 	> a:active,
 	> a:hover {
-		color: #111;
+		color: $brand-colour;
 	}
 
 	&.top-level > a {
@@ -360,6 +360,18 @@ h4 svg {
 
 .search-input-container {
 	position: relative;
+	::placeholder {
+		color: $content-color;
+		opacity: 1; /* Firefox */
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: $content-color;
+	}
+
+	::-ms-input-placeholder { /* Microsoft Edge */
+		color: $content-color;
+	}
 }
 
 .search-input-icon {
@@ -368,7 +380,7 @@ h4 svg {
 	left: 15px;
 
 	svg {
-		fill: #777;
+		fill: $content-color;
 	}
 }
 
@@ -404,7 +416,7 @@ h4 svg {
 	}
 
 	.date {
-		color: #888;
+		color: $content-color;
 		font-style: italic;
 	}
 
@@ -512,7 +524,7 @@ img {
 	opacity: 0;
 	transition: opacity ease 0.2s, color ease 0.2s;
 	text-decoration: none;
-	color: #888;
+	color: $content-color;
 	font-size: 0.9em;
 	vertical-align: bottom;
 
