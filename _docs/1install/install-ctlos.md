@@ -93,6 +93,7 @@ gpg --verify ctlos_xfce_1.0.0_20181102.iso.sig ctlos_xfce_1.0.0_20181102.iso
 ![Ctlos step 8](/wiki/images/1install/install-ctlos/8.png)
 
 Выбор в меню Grub.
+
 ![Ctlos step 9](/wiki/images/1install/install-ctlos/9.png)
 
 Менеджер входа(LightDm), в правом верхнем углу можно выбрать сессию, если присутствуют другие Окружения(DE), или Оконные менеджеры(WM). На данном скрине Xfce, она единственная и по умолчанию ничего можно не выбирать.
