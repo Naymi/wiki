@@ -83,11 +83,4 @@ types:
   - minor
   - patch
 
-markdown_extensions:
-  - admonition
-  - codehilite:
-      linenums: true
-      # guess_lang: false
-  - toc:
-      permalink: true
-  - meta
+markdown: pygments
