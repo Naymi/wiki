@@ -12,16 +12,15 @@ $cyan:     #75b5aa;
 $blue:     #5a74ca;
 $magenta:  #aa759f;
 $brown:    #8f5536;
-$default:  #505050;
+$default:  #d9e1e8;
 
-$accent-hover:  #9baec8;
+$accent-hover: $default;
 
 $body-background-color: #2B2E31;
 
 $content-max-width: 800px;
 $content-color: #9baec8;
 $content-background-color: #282c37;
-$light_heading: #d9e1e8;
 
 $brand-colour: $blue;
 $brand-colour-light: mix($brand-colour, $content-background-color, 10%);
