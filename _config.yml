@@ -83,4 +83,13 @@ types:
   - minor
   - patch
 
-markdown: pygments
+markdown: kramdown
+kramdown:
+  syntax_highlighter: pygments
+  syntax_highlighter_opts:
+    default_lang: bash
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
